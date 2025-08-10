@@ -1,0 +1,184 @@
+2025-08-01 07:40:41,997 - INFO - Initialized 24 features for level 3
+2025-08-01 07:40:41,997 - INFO - Starting weight optimization...
+2025-08-01 07:40:41,997 - INFO - Level: 3, Depth: 1
+2025-08-01 07:40:41,997 - INFO - Population: 1000, Generations: 30
+2025-08-01 07:40:41,997 - INFO - Initialized population of 1000 individuals
+2025-08-01 07:40:41,997 - INFO - 
+--- Generation 1/30 ---
+2025-08-01 07:40:41,997 - INFO - Starting population evaluation...
+2025-08-01 08:30:31,451 - INFO - Best fitness: 0.3475
+2025-08-01 08:30:31,451 - INFO - Generation 0: Best=0.3475, Mean=0.1230, Std=0.0319
+2025-08-01 08:30:31,472 - INFO - 
+--- Generation 2/30 ---
+2025-08-01 08:30:31,472 - INFO - Starting population evaluation...
+2025-08-01 09:20:37,834 - INFO - Best fitness: 0.3475
+2025-08-01 09:20:37,834 - INFO - Generation 1: Best=0.3175, Mean=0.1276, Std=0.0357
+2025-08-01 09:20:37,854 - INFO - 
+--- Generation 3/30 ---
+2025-08-01 09:20:37,854 - INFO - Starting population evaluation...
+2025-08-01 10:10:41,675 - INFO - Best fitness: 0.3475
+2025-08-01 10:10:41,675 - INFO - Generation 2: Best=0.2775, Mean=0.1290, Std=0.0347
+2025-08-01 10:10:41,692 - INFO - 
+--- Generation 4/30 ---
+2025-08-01 10:10:41,692 - INFO - Starting population evaluation...
+2025-08-01 11:00:59,229 - INFO - Best fitness: 0.3475
+2025-08-01 11:00:59,238 - INFO - Generation 3: Best=0.3025, Mean=0.1284, Std=0.0356
+2025-08-01 11:00:59,256 - INFO - 
+--- Generation 5/30 ---
+2025-08-01 11:00:59,257 - INFO - Starting population evaluation...
+2025-08-01 11:51:16,917 - INFO - Best fitness: 0.3475
+2025-08-01 11:51:16,917 - INFO - Generation 4: Best=0.3475, Mean=0.1300, Std=0.0361
+2025-08-01 11:51:16,941 - INFO - 
+--- Generation 6/30 ---
+2025-08-01 11:51:16,941 - INFO - Starting population evaluation...
+2025-08-01 12:41:09,980 - INFO - Best fitness: 0.3475
+2025-08-01 12:41:09,989 - INFO - Generation 5: Best=0.3000, Mean=0.1324, Std=0.0389
+2025-08-01 12:41:09,989 - INFO - 
+--- Generation 7/30 ---
+2025-08-01 12:41:09,989 - INFO - Starting population evaluation...
+2025-08-01 13:30:57,643 - INFO - Best fitness: 0.3475
+2025-08-01 13:30:57,643 - INFO - Generation 6: Best=0.3025, Mean=0.1326, Std=0.0392
+2025-08-01 13:30:57,660 - INFO - 
+--- Generation 8/30 ---
+2025-08-01 13:30:57,660 - INFO - Starting population evaluation...
+2025-08-01 14:21:06,667 - INFO - Best fitness: 0.3475
+2025-08-01 14:21:06,667 - INFO - Generation 7: Best=0.3025, Mean=0.1339, Std=0.0405
+2025-08-01 14:21:06,689 - INFO - 
+--- Generation 9/30 ---
+2025-08-01 14:21:06,691 - INFO - Starting population evaluation...
+2025-08-01 15:10:51,572 - INFO - Best fitness: 0.3475
+2025-08-01 15:10:51,572 - INFO - Generation 8: Best=0.3475, Mean=0.1354, Std=0.0415
+2025-08-01 15:10:51,572 - INFO - 
+--- Generation 10/30 ---
+2025-08-01 15:10:51,572 - INFO - Starting population evaluation...
+2025-08-01 16:00:47,906 - INFO - Best fitness: 0.3675
+2025-08-01 16:00:47,906 - INFO - Generation 9: Best=0.3675, Mean=0.1354, Std=0.0418
+2025-08-01 16:00:47,911 - INFO - 
+--- Generation 11/30 ---
+2025-08-01 16:00:47,911 - INFO - Starting population evaluation...
+2025-08-01 16:54:03,072 - INFO - Best fitness: 0.3675
+2025-08-01 16:54:03,072 - INFO - Generation 10: Best=0.3425, Mean=0.1342, Std=0.0412
+2025-08-01 16:54:03,094 - INFO - 
+--- Generation 12/30 ---
+2025-08-01 16:54:03,094 - INFO - Starting population evaluation...
+2025-08-01 17:44:12,339 - INFO - Best fitness: 0.3675
+2025-08-01 17:44:12,339 - INFO - Generation 11: Best=0.3025, Mean=0.1362, Std=0.0406
+2025-08-01 17:44:12,359 - INFO - 
+--- Generation 13/30 ---
+2025-08-01 17:44:12,360 - INFO - Starting population evaluation...
+2025-08-01 18:34:28,857 - INFO - Best fitness: 0.3675
+2025-08-01 18:34:28,857 - INFO - Generation 12: Best=0.3425, Mean=0.1367, Std=0.0419
+2025-08-01 18:34:28,876 - INFO - 
+--- Generation 14/30 ---
+2025-08-01 18:34:28,876 - INFO - Starting population evaluation...
+2025-08-01 19:24:54,814 - INFO - Best fitness: 0.3875
+2025-08-01 19:24:54,826 - INFO - Generation 13: Best=0.3875, Mean=0.1377, Std=0.0462
+2025-08-01 19:24:54,835 - INFO - 
+--- Generation 15/30 ---
+2025-08-01 19:24:54,835 - INFO - Starting population evaluation...
+2025-08-01 20:15:13,041 - INFO - Best fitness: 0.3875
+2025-08-01 20:15:13,041 - INFO - Generation 14: Best=0.3225, Mean=0.1370, Std=0.0445
+2025-08-01 20:15:13,059 - INFO - 
+--- Generation 16/30 ---
+2025-08-01 20:15:13,059 - INFO - Starting population evaluation...
+2025-08-01 21:06:18,750 - INFO - Best fitness: 0.3875
+2025-08-01 21:06:18,750 - INFO - Generation 15: Best=0.3225, Mean=0.1341, Std=0.0426
+2025-08-01 21:06:18,767 - INFO - 
+--- Generation 17/30 ---
+2025-08-01 21:06:18,767 - INFO - Starting population evaluation...
+2025-08-01 21:57:04,626 - INFO - Best fitness: 0.3875
+2025-08-01 21:57:04,626 - INFO - Generation 16: Best=0.3225, Mean=0.1348, Std=0.0426
+2025-08-01 21:57:04,642 - INFO - 
+--- Generation 18/30 ---
+2025-08-01 21:57:04,642 - INFO - Starting population evaluation...
+2025-08-01 22:47:52,659 - INFO - Best fitness: 0.3875
+2025-08-01 22:47:52,662 - INFO - Generation 17: Best=0.3250, Mean=0.1372, Std=0.0423
+2025-08-01 22:47:52,676 - INFO - 
+--- Generation 19/30 ---
+2025-08-01 22:47:52,676 - INFO - Starting population evaluation...
+2025-08-01 23:38:21,421 - INFO - Best fitness: 0.3875
+2025-08-01 23:38:21,431 - INFO - Generation 18: Best=0.3225, Mean=0.1359, Std=0.0433
+2025-08-01 23:38:21,431 - INFO - 
+--- Generation 20/30 ---
+2025-08-01 23:38:21,431 - INFO - Starting population evaluation...
+2025-08-02 00:28:47,592 - INFO - Best fitness: 0.3875
+2025-08-02 00:28:47,592 - INFO - Generation 19: Best=0.3000, Mean=0.1354, Std=0.0417
+2025-08-02 00:28:47,614 - INFO - 
+--- Generation 21/30 ---
+2025-08-02 00:28:47,614 - INFO - Starting population evaluation...
+2025-08-02 01:19:06,596 - INFO - Best fitness: 0.3875
+2025-08-02 01:19:06,596 - INFO - Generation 20: Best=0.3650, Mean=0.1364, Std=0.0444
+2025-08-02 01:19:06,613 - INFO - 
+--- Generation 22/30 ---
+2025-08-02 01:19:06,613 - INFO - Starting population evaluation...
+2025-08-02 02:09:00,289 - INFO - Best fitness: 0.3875
+2025-08-02 02:09:00,296 - INFO - Generation 21: Best=0.3625, Mean=0.1376, Std=0.0450
+2025-08-02 02:09:00,309 - INFO - 
+--- Generation 23/30 ---
+2025-08-02 02:09:00,310 - INFO - Starting population evaluation...
+2025-08-02 02:58:39,226 - INFO - Best fitness: 0.3875
+2025-08-02 02:58:39,231 - INFO - Generation 22: Best=0.3025, Mean=0.1336, Std=0.0406
+2025-08-02 02:58:39,241 - INFO - 
+--- Generation 24/30 ---
+2025-08-02 02:58:39,241 - INFO - Starting population evaluation...
+2025-08-02 03:48:29,747 - INFO - Best fitness: 0.3875
+2025-08-02 03:48:29,747 - INFO - Generation 23: Best=0.3175, Mean=0.1361, Std=0.0408
+2025-08-02 03:48:29,766 - INFO - 
+--- Generation 25/30 ---
+2025-08-02 03:48:29,766 - INFO - Starting population evaluation...
+2025-08-02 04:38:38,739 - INFO - Best fitness: 0.3875
+2025-08-02 04:38:38,739 - INFO - Generation 24: Best=0.2575, Mean=0.1316, Std=0.0383
+2025-08-02 04:38:38,758 - INFO - 
+--- Generation 26/30 ---
+2025-08-02 04:38:38,758 - INFO - Starting population evaluation...
+2025-08-02 05:28:34,131 - INFO - Best fitness: 0.3875
+2025-08-02 05:28:34,134 - INFO - Generation 25: Best=0.3025, Mean=0.1348, Std=0.0408
+2025-08-02 05:28:34,147 - INFO - 
+--- Generation 27/30 ---
+2025-08-02 05:28:34,147 - INFO - Starting population evaluation...
+2025-08-02 06:18:54,979 - INFO - Best fitness: 0.3875
+2025-08-02 06:18:54,979 - INFO - Generation 26: Best=0.3200, Mean=0.1328, Std=0.0391
+2025-08-02 06:18:55,001 - INFO - 
+--- Generation 28/30 ---
+2025-08-02 06:18:55,001 - INFO - Starting population evaluation...
+2025-08-02 07:08:50,416 - INFO - Best fitness: 0.3875
+2025-08-02 07:08:50,416 - INFO - Generation 27: Best=0.3600, Mean=0.1359, Std=0.0407
+2025-08-02 07:08:50,435 - INFO - 
+--- Generation 29/30 ---
+2025-08-02 07:08:50,435 - INFO - Starting population evaluation...
+2025-08-02 07:58:56,850 - INFO - Best fitness: 0.3875
+2025-08-02 07:58:56,850 - INFO - Generation 28: Best=0.3225, Mean=0.1415, Std=0.0451
+2025-08-02 07:58:56,865 - INFO - 
+--- Generation 30/30 ---
+2025-08-02 07:58:56,865 - INFO - Starting population evaluation...
+2025-08-02 08:48:56,215 - INFO - Best fitness: 0.3875
+2025-08-02 08:48:56,215 - INFO - Generation 29: Best=0.3450, Mean=0.1395, Std=0.0448
+2025-08-02 08:48:56,215 - INFO - Results saved to results\optimization_results_20250802_084856.json
+2025-08-02 08:48:56,215 - INFO - 
+Optimization completed!
+2025-08-02 08:48:56,215 - INFO - Best fitness achieved: 0.3875
+2025-08-02 08:48:56,215 - INFO - Best weights:
+2025-08-02 08:48:56,215 - INFO -   avance_balon: 14.478
+2025-08-02 08:48:56,215 - INFO -   dist_balon_jug_1: 20.481
+2025-08-02 08:48:56,225 - INFO -   dist_balon_jug_2: -13.601
+2025-08-02 08:48:56,225 - INFO -   dist_balon_jug_3: -34.117
+2025-08-02 08:48:56,225 - INFO -   dist_balon_op_1: -25.797
+2025-08-02 08:48:56,225 - INFO -   dist_balon_op_2: -32.578
+2025-08-02 08:48:56,225 - INFO -   dist_balon_op_3: 35.340
+2025-08-02 08:48:56,226 - INFO -   avance_jug_1: 16.359
+2025-08-02 08:48:56,226 - INFO -   avance_jug_2: -50.000
+2025-08-02 08:48:56,226 - INFO -   avance_jug_3: -28.283
+2025-08-02 08:48:56,226 - INFO -   avance_op_1: -0.586
+2025-08-02 08:48:56,226 - INFO -   avance_op_2: 37.857
+2025-08-02 08:48:56,226 - INFO -   avance_op_3: 31.039
+2025-08-02 08:48:56,227 - INFO -   muy_cerca_borde_jug: -14.968
+2025-08-02 08:48:56,227 - INFO -   muy_cerca_borde_op: 28.895
+2025-08-02 08:48:56,227 - INFO -   arq_en_area_jug: 28.295
+2025-08-02 08:48:56,227 - INFO -   arq_en_area_op: -2.642
+2025-08-02 08:48:56,227 - INFO -   mas_cerca_balon: -14.185
+2025-08-02 08:48:56,228 - INFO -   casilla_neutra: -11.733
+2025-08-02 08:48:56,228 - INFO -   casilla_especial: -20.382
+2025-08-02 08:48:56,228 - INFO -   muy_cerca_jug: -46.847
+2025-08-02 08:48:56,229 - INFO -   muy_lejos_jug: -29.318
+2025-08-02 08:48:56,229 - INFO -   muy_cerca_op: 39.987
+2025-08-02 08:48:56,229 - INFO -   muy_lejos_op: 34.475

@@ -1,0 +1,19 @@
+{
+  "level": 1,
+  "minimax_depth": 1,
+  "fitness": 0.505,
+  "games_played": 40,
+  "wins": 18,
+  "draws": 22,
+  "losses": 0,
+  "weights": {
+    "avance_balon": -13.406318007597811,
+    "dist_balon_jug": 19.56710950310157,
+    "dist_balon_op": -38.42662426184997,
+    "avance_jug": -50.0,
+    "avance_op": 5.208654310178133,
+    "dist_col_balon_jug": 40.032437400479715,
+    "dist_col_balon_op": -26.432456820327168,
+    "mas_cerca_balon": 48.76084127533733
+  }
+}

@@ -1,0 +1,10 @@
+2025-08-06 14:41:34,894 - INFO - Initialized 8 features for level 1
+2025-08-06 14:41:34,894 - INFO - Starting weight optimization...
+2025-08-06 14:41:34,894 - INFO - Level: 1, Depth: 3
+2025-08-06 14:41:34,894 - INFO - Population: 500, Generations: 20
+2025-08-06 14:41:34,894 - INFO - Parallel: True, Workers: 12
+2025-08-06 14:41:34,894 - INFO - Initialized population of 500 individuals
+2025-08-06 14:41:34,894 - INFO - 
+--- Generation 1/20 ---
+2025-08-06 14:41:34,894 - INFO - Starting population evaluation...
+2025-08-06 14:41:34,894 - INFO - Using 12 parallel workers

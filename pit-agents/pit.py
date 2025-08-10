@@ -90,7 +90,7 @@ class GameResult:
     game_duration: float
     agent1_color: str  # 'LEFT' or 'RIGHT'
     agent2_color: str
-    termination_reason: str  # 'checkmate', 'max_moves', 'error'
+    termination_reason: str  # 'goal', 'max_moves', 'error'
 
 
 @dataclass
@@ -177,10 +177,10 @@ class TournamentManager:
     def register_agent(self, config: AgentConfig):
         """Register an agent for the tournament."""
         if config.name in self.agents:
-            self.logger.warning(f"Agent {config.name} already registeRIGHT, overwriting")
+            self.logger.warning(f"Agent {config.name} already registered, overwriting")
         
         self.agents[config.name] = config
-        self.logger.info(f"RegisteRIGHT agent: {config.name}")
+        self.logger.info(f"Registered agent: {config.name}")
         self.logger.info(f"  Level: {config.level}, Depth: {config.minimax_depth}")
         self.logger.info(f"  Weights file: {config.weights_file}")
         self.logger.info(f"  Description: {config.description}")
@@ -207,6 +207,7 @@ class TournamentManager:
             description=description
         )
         self.register_agent(config)
+
         return config
     
     def register_multiple_agents(self, agents_info: List[Dict[str, Any]]):
@@ -315,7 +316,7 @@ class TournamentManager:
                 else:
                     winner = 'agent2'
                     score = -1.0
-                termination_reason = "checkmate"
+                termination_reason = "goal"
             elif result == -1:  # RIGHT wins
                 if agent1_color == 'RIGHT':
                     winner = 'agent1'
@@ -323,7 +324,7 @@ class TournamentManager:
                 else:
                     winner = 'agent2'
                     score = -1.0
-                termination_reason = "checkmate"
+                termination_reason = "goal"
             else:  # Draw
                 winner = 'draw'
                 score = 0.0
@@ -749,9 +750,15 @@ def main():
     )
     print(f"Starting tournament with {len(tournament.agents)} agents")
     # Register agents with just file paths
-    tournament.register_agent_from_file("Agent1", "../Level1/Depth1/depth1_level1_run1/optimized_weights.json")
-    tournament.register_agent_from_file("Agent2", "../Level1/Depth1/depth1_level1_run2/optimized_weights.json") 
-    tournament.register_agent_from_file("Agent3", "../Level1/Depth1/depth1_level1_run3/optimized_weights.json")
+    tournament.register_agent_from_file("Agent R1 D1 L1", "../Level1/Depth1/depth1_level1_run1/optimized_weights.json")
+    tournament.register_agent_from_file("Agent R2 D1 L1", "../Level1/Depth1/depth1_level1_run2/optimized_weights.json") 
+    tournament.register_agent_from_file("Agent R3 D1 L1", "../Level1/Depth1/depth1_level1_run3/optimized_weights.json")
+    tournament.register_agent_from_file("Agent Alberto Default", "../Level1/Depth1/albertoDefaultL1D1.json")
+    tournament.register_agent_from_file("Agent Alberto Average 10 Players", "../Level1/Depth1/albertoDefaultL1D1.json")
+    #tournament.register_agent_from_file("Agent R1 D2 L1", "../Level1/Depth2/depth2_level1_run1/optimized_weights.json")
+    #tournament.register_agent_from_file("Agent R2 D2 L1", "../Level1/Depth2/depth2_level1_run2/optimized_weights.json")
+    #tournament.register_agent_from_file("Agent R3 D2 L1", "../Level1/Depth2/depth2_level1_run3/optimized_weights.json")
+    #tournament.register_agent_from_file("Agent R1 D3 L1", "../Level1/Depth3/depth3_level1_run1/optimized_weights.json")
     # Run tournament
     matches = tournament.run_round_robin()
     tournament.print_summary()
@@ -813,7 +820,7 @@ def run_quick_test():
             name="ExampleAgent",
             weights_file="optimized_weights.json"
         )
-        print("✓ Successfully registeRIGHT example agent")
+        print("✓ Successfully registered example agent")
         
         # Create a second agent for testing (you would replace this with actual files)
         # For demo purposes, we'll create another agent config manually

@@ -1,0 +1,40 @@
+WEIGHT OPTIMIZATION ANALYSIS REPORT
+Generated: 2025-07-31 21:06:37
+python weight_optimizer.py --level 1 --population 1500 --generations 100 --mutation-rate 0.2 --crossover-rate 0.8 --depth 1 --seed 753 --workers 10
+Results file: results/optimization_results_20250731_191115.json
+==================================================
+
+CONFIGURATION:
+  level: 1
+  minimax_depth: 1
+  population_size: 1500
+  generations: 100
+  mutation_rate: 0.2
+  crossover_rate: 0.8
+  elite_size: 15
+  weight_bounds: [-50.0, 50.0]
+  games_per_matchup: 2
+
+BEST INDIVIDUAL:
+  Fitness: 0.5275
+  Games Played: 40
+  Wins: 19
+  Draws: 21
+  Losses: 0
+
+OPTIMIZED WEIGHTS:
+  avance_balon: 20.214535
+  avance_jug: -10.549165
+  avance_op: -40.797412
+  dist_balon_jug: -26.976034
+  dist_balon_op: 37.929562
+  dist_col_balon_jug: -46.809016
+  dist_col_balon_op: -50.000000
+  mas_cerca_balon: -1.054640
+
+EVOLUTION SUMMARY:
+  Initial best fitness: 0.2350
+  Final best fitness: 0.4350
+  Total improvement: 0.2000
+  Generations: 100
+
