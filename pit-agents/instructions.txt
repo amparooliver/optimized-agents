@@ -1,41 +1,8 @@
+# Run your tournament with the enhanced system
+python enhanced_pit.py --games 2 --output-dir thesis_results --seed 42
 
-python pit.py
+# Quick test with sample data
+python enhanced_pit.py --quick --seed 42
 
-
-
-print("Agent Tournament System")
-print("="*50)
-print("\nExample usage:")
-print("""
-# Method 1: Individual agent registration
-tournament.register_agent_from_file(
-    name="OptimizedAgent1",
-    weights_file="path/to/optimized_weights1.json"
-)
-
-tournament.register_agent_from_file(
-    name="OptimizedAgent2", 
-    weights_file="path/to/optimized_weights2.json",
-    minimax_depth=3  # Override depth from file
-)
-
-# Method 2: Bulk registration
-agents_list = [
-    {"name": "Agent1", "weights_file": "weights1.json"},
-    {"name": "Agent2", "weights_file": "weights2.json"},
-    {"name": "Agent3", "weights_file": "weights3.json", "minimax_depth": 2}
-]
-tournament.register_multiple_agents(agents_list)
-
-# Method 3: Traditional way (still supported)
-config = AgentConfig(
-    name="CustomAgent",
-    weights_file="custom_weights.json"
-)
-tournament.register_agent(config)
-
-# Run tournament
-matches = tournament.run_round_robin()
-tournament.print_summary()
-tournament.save_results()
-    """)
+# Generate only plots from existing results
+python enhanced_pit.py --plots-only
