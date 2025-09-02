@@ -1,0 +1,295 @@
+2025-08-30 14:29:22,465 - __main__ - INFO - === AGENT REGISTRATION ===
+2025-08-30 14:29:22,465 - __main__ - INFO - Name: Agent depth1_level2_run2
+2025-08-30 14:29:22,465 - __main__ - INFO - Level: 2
+2025-08-30 14:29:22,465 - __main__ - INFO - Minimax Depth: 1
+2025-08-30 14:29:22,469 - __main__ - INFO - Weight Source: unknown
+2025-08-30 14:29:22,469 - __main__ - INFO - Weights File: ../Level2/Depth1/depth1_level2_run2/optimized_weights.json
+2025-08-30 14:29:22,469 - __main__ - INFO - Fitness Score: 0.5475
+2025-08-30 14:29:22,469 - __main__ - INFO - Training Games: 40
+2025-08-30 14:29:22,470 - __main__ - INFO - Description: L2_D1_F0.55_T40
+2025-08-30 14:29:22,470 - __main__ - INFO - Feature Weights Loaded: 17 features
+2025-08-30 14:29:22,470 - __main__ - INFO - Sample Weights: {'avance_balon': 15.42963981278577, 'min_dist_balon_jug': 0.7595747719562969, 'max_dist_balon_jug': 13.951504461978251, 'min_dist_balon_op': 35.63281162625907, 'max_dist_balon_op': -28.096059909029393}
+2025-08-30 14:29:22,477 - __main__ - INFO - === AGENT REGISTRATION ===
+2025-08-30 14:29:22,477 - __main__ - INFO - Name: Agent depth2_level2_run1
+2025-08-30 14:29:22,477 - __main__ - INFO - Level: 2
+2025-08-30 14:29:22,477 - __main__ - INFO - Minimax Depth: 2
+2025-08-30 14:29:22,477 - __main__ - INFO - Weight Source: unknown
+2025-08-30 14:29:22,479 - __main__ - INFO - Weights File: ../Level2/Depth2/depth2_level2_run1/optimized_weights.json
+2025-08-30 14:29:22,479 - __main__ - INFO - Fitness Score: 0.6175
+2025-08-30 14:29:22,479 - __main__ - INFO - Training Games: 40
+2025-08-30 14:29:22,479 - __main__ - INFO - Description: L2_D2_F0.62_T40
+2025-08-30 14:29:22,479 - __main__ - INFO - Feature Weights Loaded: 17 features
+2025-08-30 14:29:22,479 - __main__ - INFO - Sample Weights: {'avance_balon': 3.263192809792507, 'min_dist_balon_jug': -14.562178151191159, 'max_dist_balon_jug': -11.75995282156965, 'min_dist_balon_op': -12.152455687198579, 'max_dist_balon_op': -30.4306365005789}
+2025-08-30 14:29:22,486 - __main__ - INFO - === AGENT REGISTRATION ===
+2025-08-30 14:29:22,486 - __main__ - INFO - Name: Agent depth3_level2_run1
+2025-08-30 14:29:22,487 - __main__ - INFO - Level: 2
+2025-08-30 14:29:22,487 - __main__ - INFO - Minimax Depth: 3
+2025-08-30 14:29:22,487 - __main__ - INFO - Weight Source: unknown
+2025-08-30 14:29:22,487 - __main__ - INFO - Weights File: ../Level2/Depth3/depth3_level2_run1/optimized_weights.json
+2025-08-30 14:29:22,487 - __main__ - INFO - Fitness Score: 0.8000
+2025-08-30 14:29:22,488 - __main__ - INFO - Training Games: 40
+2025-08-30 14:29:22,488 - __main__ - INFO - Description: L2_D3_F0.80_T40
+2025-08-30 14:29:22,488 - __main__ - INFO - Feature Weights Loaded: 17 features
+2025-08-30 14:29:22,488 - __main__ - INFO - Sample Weights: {'avance_balon': 5.649061927500951, 'min_dist_balon_jug': 49.0693034266249, 'max_dist_balon_jug': 29.392624187884863, 'min_dist_balon_op': 0.5007091761663478, 'max_dist_balon_op': 25.115955522211593}
+2025-08-30 14:29:22,489 - __main__ - INFO - === AGENT REGISTRATION ===
+2025-08-30 14:29:22,489 - __main__ - INFO - Name: Agent AlbertoBestAgent
+2025-08-30 14:29:22,489 - __main__ - INFO - Level: 2
+2025-08-30 14:29:22,489 - __main__ - INFO - Minimax Depth: 1
+2025-08-30 14:29:22,489 - __main__ - INFO - Weight Source: unknown
+2025-08-30 14:29:22,490 - __main__ - INFO - Weights File: ../Level2/Depth1/albertoBestAgent.json
+2025-08-30 14:29:22,490 - __main__ - INFO - Description: L2_D1
+2025-08-30 14:29:22,490 - __main__ - INFO - Feature Weights Loaded: 17 features
+2025-08-30 14:29:22,490 - __main__ - INFO - Sample Weights: {'avance_balon': 96, 'min_dist_balon_jug': -25, 'max_dist_balon_jug': -77, 'min_dist_balon_op': 26, 'max_dist_balon_op': 52}
+2025-08-30 14:29:22,491 - __main__ - INFO - === AGENT REGISTRATION ===
+2025-08-30 14:29:22,491 - __main__ - INFO - Name: Agent AlbertoAvg
+2025-08-30 14:29:22,491 - __main__ - INFO - Level: 2
+2025-08-30 14:29:22,491 - __main__ - INFO - Minimax Depth: 1
+2025-08-30 14:29:22,491 - __main__ - INFO - Weight Source: unknown
+2025-08-30 14:29:22,491 - __main__ - INFO - Weights File: ../Level2/Depth1/albertoAvg.json
+2025-08-30 14:29:22,491 - __main__ - INFO - Description: L2_D1
+2025-08-30 14:29:22,491 - __main__ - INFO - Feature Weights Loaded: 17 features
+2025-08-30 14:29:22,491 - __main__ - INFO - Sample Weights: {'avance_balon': 97.407, 'min_dist_balon_jug': -23.093, 'max_dist_balon_jug': -76.39, 'min_dist_balon_op': 22.359, 'max_dist_balon_op': 48.177}
+2025-08-30 14:29:22,491 - __main__ - INFO - === TOURNAMENT START ===
+2025-08-30 14:29:22,491 - __main__ - INFO - Agents: 5 registered
+2025-08-30 14:29:22,491 - __main__ - INFO - Format: 2 games per match (1 as LEFT, 1 as RIGHT)
+2025-08-30 14:29:22,491 - __main__ - INFO - Max moves per game: 200
+2025-08-30 14:29:22,491 - __main__ - INFO - Time limit per move: 400.0s
+2025-08-30 14:29:22,491 - __main__ - INFO -   Agent depth1_level2_run2: L2 D1 (unknown)
+2025-08-30 14:29:22,491 - __main__ - INFO -   Agent depth2_level2_run1: L2 D2 (unknown)
+2025-08-30 14:29:22,491 - __main__ - INFO -   Agent depth3_level2_run1: L2 D3 (unknown)
+2025-08-30 14:29:22,491 - __main__ - INFO -   Agent AlbertoBestAgent: L2 D1 (unknown)
+2025-08-30 14:29:22,491 - __main__ - INFO -   Agent AlbertoAvg: L2 D1 (unknown)
+2025-08-30 14:29:22,491 - __main__ - INFO - Match 1/10: Agent depth1_level2_run2 vs Agent depth2_level2_run1
+2025-08-30 14:29:22,491 - __main__ - INFO - === MATCH START ===
+2025-08-30 14:29:22,491 - __main__ - INFO - Agent1: Agent depth1_level2_run2 (L2, D1)
+2025-08-30 14:29:22,491 - __main__ - INFO - Agent2: Agent depth2_level2_run1 (L2, D2)
+2025-08-30 14:29:22,491 - __main__ - INFO - Game 1/2: Agent depth1_level2_run2(LEFT) vs Agent depth2_level2_run1
+2025-08-30 14:29:22,499 - games - INFO - GAME START: Agent depth1_level2_run2(LEFT) vs Agent depth2_level2_run1(RIGHT)
+2025-08-30 14:29:23,539 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:29:23,539 - games - INFO - Duration: 1.04s, Moves: 200
+2025-08-30 14:29:23,539 - games - INFO - Agent1 (Agent depth1_level2_run2): 100 moves, avg 0.002s/move, total 0.17s
+2025-08-30 14:29:23,539 - games - INFO - Agent2 (Agent depth2_level2_run1): 100 moves, avg 0.009s/move, total 0.87s
+2025-08-30 14:29:23,539 - __main__ - INFO - Game 2/2: Agent depth1_level2_run2(RIGHT) vs Agent depth2_level2_run1
+2025-08-30 14:29:23,539 - games - INFO - GAME START: Agent depth1_level2_run2(RIGHT) vs Agent depth2_level2_run1(LEFT)
+2025-08-30 14:29:24,426 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:29:24,439 - games - INFO - Duration: 0.89s, Moves: 200
+2025-08-30 14:29:24,439 - games - INFO - Agent1 (Agent depth1_level2_run2): 100 moves, avg 0.001s/move, total 0.10s
+2025-08-30 14:29:24,439 - games - INFO - Agent2 (Agent depth2_level2_run1): 100 moves, avg 0.008s/move, total 0.78s
+2025-08-30 14:29:24,439 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 14:29:24,439 - __main__ - INFO - Final Score: Agent depth1_level2_run2 1.0 - 1.0 Agent depth2_level2_run1
+2025-08-30 14:29:24,439 - __main__ - INFO - Color Performance - Agent depth1_level2_run2: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:29:24,439 - __main__ - INFO - Color Performance - Agent depth2_level2_run1: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:29:24,439 - __main__ - INFO - Average Move Times: Agent depth1_level2_run2 0.001s, Agent depth2_level2_run1 0.008s
+2025-08-30 14:29:24,439 - __main__ - INFO - Match Duration: 1.95s
+2025-08-30 14:29:24,439 - __main__ - INFO - Match 2/10: Agent depth1_level2_run2 vs Agent depth3_level2_run1
+2025-08-30 14:29:24,439 - __main__ - INFO - === MATCH START ===
+2025-08-30 14:29:24,439 - __main__ - INFO - Agent1: Agent depth1_level2_run2 (L2, D1)
+2025-08-30 14:29:24,439 - __main__ - INFO - Agent2: Agent depth3_level2_run1 (L2, D3)
+2025-08-30 14:29:24,439 - __main__ - INFO - Game 1/2: Agent depth1_level2_run2(LEFT) vs Agent depth3_level2_run1
+2025-08-30 14:29:24,439 - games - INFO - GAME START: Agent depth1_level2_run2(LEFT) vs Agent depth3_level2_run1(RIGHT)
+2025-08-30 14:29:32,965 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:29:32,965 - games - INFO - Duration: 8.53s, Moves: 200
+2025-08-30 14:29:32,981 - games - INFO - Agent1 (Agent depth1_level2_run2): 70 moves, avg 0.001s/move, total 0.08s
+2025-08-30 14:29:32,981 - games - INFO - Agent2 (Agent depth3_level2_run1): 130 moves, avg 0.065s/move, total 8.44s
+2025-08-30 14:29:32,981 - __main__ - INFO - Game 2/2: Agent depth1_level2_run2(RIGHT) vs Agent depth3_level2_run1
+2025-08-30 14:29:32,981 - games - INFO - GAME START: Agent depth1_level2_run2(RIGHT) vs Agent depth3_level2_run1(LEFT)
+2025-08-30 14:29:36,585 - games - INFO - GAME RESULT: agent2 wins
+2025-08-30 14:29:36,585 - games - INFO - Duration: 3.60s, Moves: 16
+2025-08-30 14:29:36,585 - games - INFO - Agent1 (Agent depth1_level2_run2): 5 moves, avg 0.000s/move, total 0.00s
+2025-08-30 14:29:36,585 - games - INFO - Agent2 (Agent depth3_level2_run1): 11 moves, avg 0.328s/move, total 3.60s
+2025-08-30 14:29:36,585 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 14:29:36,585 - __main__ - INFO - Final Score: Agent depth1_level2_run2 0.5 - 1.5 Agent depth3_level2_run1
+2025-08-30 14:29:36,585 - __main__ - INFO - Color Performance - Agent depth1_level2_run2: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:29:36,585 - __main__ - INFO - Color Performance - Agent depth3_level2_run1: LEFT 1/1, RIGHT 0/1
+2025-08-30 14:29:36,585 - __main__ - INFO - Average Move Times: Agent depth1_level2_run2 0.001s, Agent depth3_level2_run1 0.196s
+2025-08-30 14:29:36,585 - __main__ - INFO - Match Duration: 12.15s
+2025-08-30 14:29:36,585 - __main__ - INFO - Match 3/10: Agent depth1_level2_run2 vs Agent AlbertoBestAgent
+2025-08-30 14:29:36,585 - __main__ - INFO - === MATCH START ===
+2025-08-30 14:29:36,585 - __main__ - INFO - Agent1: Agent depth1_level2_run2 (L2, D1)
+2025-08-30 14:29:36,585 - __main__ - INFO - Agent2: Agent AlbertoBestAgent (L2, D1)
+2025-08-30 14:29:36,585 - __main__ - INFO - Game 1/2: Agent depth1_level2_run2(LEFT) vs Agent AlbertoBestAgent
+2025-08-30 14:29:36,585 - games - INFO - GAME START: Agent depth1_level2_run2(LEFT) vs Agent AlbertoBestAgent(RIGHT)
+2025-08-30 14:29:36,941 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:29:36,942 - games - INFO - Duration: 0.36s, Moves: 200
+2025-08-30 14:29:36,942 - games - INFO - Agent1 (Agent depth1_level2_run2): 100 moves, avg 0.001s/move, total 0.14s
+2025-08-30 14:29:36,942 - games - INFO - Agent2 (Agent AlbertoBestAgent): 100 moves, avg 0.002s/move, total 0.18s
+2025-08-30 14:29:36,942 - __main__ - INFO - Game 2/2: Agent depth1_level2_run2(RIGHT) vs Agent AlbertoBestAgent
+2025-08-30 14:29:36,943 - games - INFO - GAME START: Agent depth1_level2_run2(RIGHT) vs Agent AlbertoBestAgent(LEFT)
+2025-08-30 14:29:37,115 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:29:37,115 - games - INFO - Duration: 0.17s, Moves: 200
+2025-08-30 14:29:37,115 - games - INFO - Agent1 (Agent depth1_level2_run2): 100 moves, avg 0.001s/move, total 0.10s
+2025-08-30 14:29:37,115 - games - INFO - Agent2 (Agent AlbertoBestAgent): 100 moves, avg 0.001s/move, total 0.05s
+2025-08-30 14:29:37,115 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 14:29:37,115 - __main__ - INFO - Final Score: Agent depth1_level2_run2 1.0 - 1.0 Agent AlbertoBestAgent
+2025-08-30 14:29:37,131 - __main__ - INFO - Color Performance - Agent depth1_level2_run2: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:29:37,131 - __main__ - INFO - Color Performance - Agent AlbertoBestAgent: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:29:37,131 - __main__ - INFO - Average Move Times: Agent depth1_level2_run2 0.001s, Agent AlbertoBestAgent 0.001s
+2025-08-30 14:29:37,131 - __main__ - INFO - Match Duration: 0.53s
+2025-08-30 14:29:37,131 - __main__ - INFO - Match 4/10: Agent depth1_level2_run2 vs Agent AlbertoAvg
+2025-08-30 14:29:37,131 - __main__ - INFO - === MATCH START ===
+2025-08-30 14:29:37,131 - __main__ - INFO - Agent1: Agent depth1_level2_run2 (L2, D1)
+2025-08-30 14:29:37,131 - __main__ - INFO - Agent2: Agent AlbertoAvg (L2, D1)
+2025-08-30 14:29:37,131 - __main__ - INFO - Game 1/2: Agent depth1_level2_run2(LEFT) vs Agent AlbertoAvg
+2025-08-30 14:29:37,131 - games - INFO - GAME START: Agent depth1_level2_run2(LEFT) vs Agent AlbertoAvg(RIGHT)
+2025-08-30 14:29:37,467 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:29:37,483 - games - INFO - Duration: 0.34s, Moves: 200
+2025-08-30 14:29:37,483 - games - INFO - Agent1 (Agent depth1_level2_run2): 100 moves, avg 0.001s/move, total 0.14s
+2025-08-30 14:29:37,483 - games - INFO - Agent2 (Agent AlbertoAvg): 100 moves, avg 0.002s/move, total 0.15s
+2025-08-30 14:29:37,483 - __main__ - INFO - Game 2/2: Agent depth1_level2_run2(RIGHT) vs Agent AlbertoAvg
+2025-08-30 14:29:37,483 - games - INFO - GAME START: Agent depth1_level2_run2(RIGHT) vs Agent AlbertoAvg(LEFT)
+2025-08-30 14:29:37,734 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:29:37,734 - games - INFO - Duration: 0.25s, Moves: 200
+2025-08-30 14:29:37,734 - games - INFO - Agent1 (Agent depth1_level2_run2): 101 moves, avg 0.001s/move, total 0.11s
+2025-08-30 14:29:37,734 - games - INFO - Agent2 (Agent AlbertoAvg): 99 moves, avg 0.001s/move, total 0.12s
+2025-08-30 14:29:37,734 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 14:29:37,734 - __main__ - INFO - Final Score: Agent depth1_level2_run2 1.0 - 1.0 Agent AlbertoAvg
+2025-08-30 14:29:37,734 - __main__ - INFO - Color Performance - Agent depth1_level2_run2: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:29:37,734 - __main__ - INFO - Color Performance - Agent AlbertoAvg: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:29:37,734 - __main__ - INFO - Average Move Times: Agent depth1_level2_run2 0.001s, Agent AlbertoAvg 0.001s
+2025-08-30 14:29:37,734 - __main__ - INFO - Match Duration: 0.60s
+2025-08-30 14:29:37,734 - __main__ - INFO - Match 5/10: Agent depth2_level2_run1 vs Agent depth3_level2_run1
+2025-08-30 14:29:37,734 - __main__ - INFO - === MATCH START ===
+2025-08-30 14:29:37,734 - __main__ - INFO - Agent1: Agent depth2_level2_run1 (L2, D2)
+2025-08-30 14:29:37,734 - __main__ - INFO - Agent2: Agent depth3_level2_run1 (L2, D3)
+2025-08-30 14:29:37,734 - __main__ - INFO - Game 1/2: Agent depth2_level2_run1(LEFT) vs Agent depth3_level2_run1
+2025-08-30 14:29:37,734 - games - INFO - GAME START: Agent depth2_level2_run1(LEFT) vs Agent depth3_level2_run1(RIGHT)
+2025-08-30 14:29:48,328 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:29:48,328 - games - INFO - Duration: 10.59s, Moves: 200
+2025-08-30 14:29:48,328 - games - INFO - Agent1 (Agent depth2_level2_run1): 68 moves, avg 0.015s/move, total 1.03s
+2025-08-30 14:29:48,328 - games - INFO - Agent2 (Agent depth3_level2_run1): 132 moves, avg 0.072s/move, total 9.53s
+2025-08-30 14:29:48,328 - __main__ - INFO - Game 2/2: Agent depth2_level2_run1(RIGHT) vs Agent depth3_level2_run1
+2025-08-30 14:29:48,328 - games - INFO - GAME START: Agent depth2_level2_run1(RIGHT) vs Agent depth3_level2_run1(LEFT)
+2025-08-30 14:29:58,610 - games - INFO - GAME RESULT: agent2 wins
+2025-08-30 14:29:58,610 - games - INFO - Duration: 10.28s, Moves: 65
+2025-08-30 14:29:58,610 - games - INFO - Agent1 (Agent depth2_level2_run1): 30 moves, avg 0.020s/move, total 0.60s
+2025-08-30 14:29:58,610 - games - INFO - Agent2 (Agent depth3_level2_run1): 35 moves, avg 0.277s/move, total 9.69s
+2025-08-30 14:29:58,610 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 14:29:58,610 - __main__ - INFO - Final Score: Agent depth2_level2_run1 0.5 - 1.5 Agent depth3_level2_run1
+2025-08-30 14:29:58,610 - __main__ - INFO - Color Performance - Agent depth2_level2_run1: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:29:58,610 - __main__ - INFO - Color Performance - Agent depth3_level2_run1: LEFT 1/1, RIGHT 0/1
+2025-08-30 14:29:58,610 - __main__ - INFO - Average Move Times: Agent depth2_level2_run1 0.018s, Agent depth3_level2_run1 0.174s
+2025-08-30 14:29:58,610 - __main__ - INFO - Match Duration: 20.88s
+2025-08-30 14:29:58,610 - __main__ - INFO - Match 6/10: Agent depth2_level2_run1 vs Agent AlbertoBestAgent
+2025-08-30 14:29:58,610 - __main__ - INFO - === MATCH START ===
+2025-08-30 14:29:58,610 - __main__ - INFO - Agent1: Agent depth2_level2_run1 (L2, D2)
+2025-08-30 14:29:58,610 - __main__ - INFO - Agent2: Agent AlbertoBestAgent (L2, D1)
+2025-08-30 14:29:58,610 - __main__ - INFO - Game 1/2: Agent depth2_level2_run1(LEFT) vs Agent AlbertoBestAgent
+2025-08-30 14:29:58,610 - games - INFO - GAME START: Agent depth2_level2_run1(LEFT) vs Agent AlbertoBestAgent(RIGHT)
+2025-08-30 14:30:00,670 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:30:00,670 - games - INFO - Duration: 2.06s, Moves: 200
+2025-08-30 14:30:00,670 - games - INFO - Agent1 (Agent depth2_level2_run1): 100 moves, avg 0.019s/move, total 1.90s
+2025-08-30 14:30:00,670 - games - INFO - Agent2 (Agent AlbertoBestAgent): 100 moves, avg 0.001s/move, total 0.14s
+2025-08-30 14:30:00,670 - __main__ - INFO - Game 2/2: Agent depth2_level2_run1(RIGHT) vs Agent AlbertoBestAgent
+2025-08-30 14:30:00,670 - games - INFO - GAME START: Agent depth2_level2_run1(RIGHT) vs Agent AlbertoBestAgent(LEFT)
+2025-08-30 14:30:01,484 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:30:01,484 - games - INFO - Duration: 0.81s, Moves: 200
+2025-08-30 14:30:01,484 - games - INFO - Agent1 (Agent depth2_level2_run1): 100 moves, avg 0.007s/move, total 0.69s
+2025-08-30 14:30:01,484 - games - INFO - Agent2 (Agent AlbertoBestAgent): 100 moves, avg 0.001s/move, total 0.11s
+2025-08-30 14:30:01,484 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 14:30:01,484 - __main__ - INFO - Final Score: Agent depth2_level2_run1 1.0 - 1.0 Agent AlbertoBestAgent
+2025-08-30 14:30:01,484 - __main__ - INFO - Color Performance - Agent depth2_level2_run1: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:30:01,484 - __main__ - INFO - Color Performance - Agent AlbertoBestAgent: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:30:01,485 - __main__ - INFO - Average Move Times: Agent depth2_level2_run1 0.013s, Agent AlbertoBestAgent 0.001s
+2025-08-30 14:30:01,485 - __main__ - INFO - Match Duration: 2.87s
+2025-08-30 14:30:01,485 - __main__ - INFO - Match 7/10: Agent depth2_level2_run1 vs Agent AlbertoAvg
+2025-08-30 14:30:01,485 - __main__ - INFO - === MATCH START ===
+2025-08-30 14:30:01,485 - __main__ - INFO - Agent1: Agent depth2_level2_run1 (L2, D2)
+2025-08-30 14:30:01,485 - __main__ - INFO - Agent2: Agent AlbertoAvg (L2, D1)
+2025-08-30 14:30:01,486 - __main__ - INFO - Game 1/2: Agent depth2_level2_run1(LEFT) vs Agent AlbertoAvg
+2025-08-30 14:30:01,486 - games - INFO - GAME START: Agent depth2_level2_run1(LEFT) vs Agent AlbertoAvg(RIGHT)
+2025-08-30 14:30:03,528 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:30:03,530 - games - INFO - Duration: 2.04s, Moves: 200
+2025-08-30 14:30:03,530 - games - INFO - Agent1 (Agent depth2_level2_run1): 100 moves, avg 0.018s/move, total 1.78s
+2025-08-30 14:30:03,530 - games - INFO - Agent2 (Agent AlbertoAvg): 100 moves, avg 0.002s/move, total 0.22s
+2025-08-30 14:30:03,530 - __main__ - INFO - Game 2/2: Agent depth2_level2_run1(RIGHT) vs Agent AlbertoAvg
+2025-08-30 14:30:03,530 - games - INFO - GAME START: Agent depth2_level2_run1(RIGHT) vs Agent AlbertoAvg(LEFT)
+2025-08-30 14:30:04,084 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:30:04,084 - games - INFO - Duration: 0.55s, Moves: 200
+2025-08-30 14:30:04,084 - games - INFO - Agent1 (Agent depth2_level2_run1): 100 moves, avg 0.005s/move, total 0.50s
+2025-08-30 14:30:04,084 - games - INFO - Agent2 (Agent AlbertoAvg): 100 moves, avg 0.000s/move, total 0.04s
+2025-08-30 14:30:04,084 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 14:30:04,084 - __main__ - INFO - Final Score: Agent depth2_level2_run1 1.0 - 1.0 Agent AlbertoAvg
+2025-08-30 14:30:04,084 - __main__ - INFO - Color Performance - Agent depth2_level2_run1: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:30:04,084 - __main__ - INFO - Color Performance - Agent AlbertoAvg: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:30:04,084 - __main__ - INFO - Average Move Times: Agent depth2_level2_run1 0.011s, Agent AlbertoAvg 0.001s
+2025-08-30 14:30:04,084 - __main__ - INFO - Match Duration: 2.60s
+2025-08-30 14:30:04,084 - __main__ - INFO - Match 8/10: Agent depth3_level2_run1 vs Agent AlbertoBestAgent
+2025-08-30 14:30:04,084 - __main__ - INFO - === MATCH START ===
+2025-08-30 14:30:04,084 - __main__ - INFO - Agent1: Agent depth3_level2_run1 (L2, D3)
+2025-08-30 14:30:04,084 - __main__ - INFO - Agent2: Agent AlbertoBestAgent (L2, D1)
+2025-08-30 14:30:04,084 - __main__ - INFO - Game 1/2: Agent depth3_level2_run1(LEFT) vs Agent AlbertoBestAgent
+2025-08-30 14:30:04,084 - games - INFO - GAME START: Agent depth3_level2_run1(LEFT) vs Agent AlbertoBestAgent(RIGHT)
+2025-08-30 14:30:06,459 - games - INFO - GAME RESULT: agent1 wins
+2025-08-30 14:30:06,459 - games - INFO - Duration: 2.38s, Moves: 16
+2025-08-30 14:30:06,459 - games - INFO - Agent1 (Agent depth3_level2_run1): 9 moves, avg 0.262s/move, total 2.36s
+2025-08-30 14:30:06,459 - games - INFO - Agent2 (Agent AlbertoBestAgent): 7 moves, avg 0.002s/move, total 0.02s
+2025-08-30 14:30:06,459 - __main__ - INFO - Game 2/2: Agent depth3_level2_run1(RIGHT) vs Agent AlbertoBestAgent
+2025-08-30 14:30:06,459 - games - INFO - GAME START: Agent depth3_level2_run1(RIGHT) vs Agent AlbertoBestAgent(LEFT)
+2025-08-30 14:30:29,249 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:30:29,249 - games - INFO - Duration: 22.79s, Moves: 200
+2025-08-30 14:30:29,249 - games - INFO - Agent1 (Agent depth3_level2_run1): 100 moves, avg 0.227s/move, total 22.68s
+2025-08-30 14:30:29,249 - games - INFO - Agent2 (Agent AlbertoBestAgent): 100 moves, avg 0.001s/move, total 0.10s
+2025-08-30 14:30:29,249 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 14:30:29,249 - __main__ - INFO - Final Score: Agent depth3_level2_run1 1.5 - 0.5 Agent AlbertoBestAgent
+2025-08-30 14:30:29,249 - __main__ - INFO - Color Performance - Agent depth3_level2_run1: LEFT 1/1, RIGHT 0/1
+2025-08-30 14:30:29,249 - __main__ - INFO - Color Performance - Agent AlbertoBestAgent: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:30:29,249 - __main__ - INFO - Average Move Times: Agent depth3_level2_run1 0.244s, Agent AlbertoBestAgent 0.002s
+2025-08-30 14:30:29,249 - __main__ - INFO - Match Duration: 25.16s
+2025-08-30 14:30:29,249 - __main__ - INFO - Match 9/10: Agent depth3_level2_run1 vs Agent AlbertoAvg
+2025-08-30 14:30:29,249 - __main__ - INFO - === MATCH START ===
+2025-08-30 14:30:29,249 - __main__ - INFO - Agent1: Agent depth3_level2_run1 (L2, D3)
+2025-08-30 14:30:29,249 - __main__ - INFO - Agent2: Agent AlbertoAvg (L2, D1)
+2025-08-30 14:30:29,249 - __main__ - INFO - Game 1/2: Agent depth3_level2_run1(LEFT) vs Agent AlbertoAvg
+2025-08-30 14:30:29,249 - games - INFO - GAME START: Agent depth3_level2_run1(LEFT) vs Agent AlbertoAvg(RIGHT)
+2025-08-30 14:30:36,225 - games - INFO - GAME RESULT: agent1 wins
+2025-08-30 14:30:36,225 - games - INFO - Duration: 6.98s, Moves: 54
+2025-08-30 14:30:36,225 - games - INFO - Agent1 (Agent depth3_level2_run1): 30 moves, avg 0.232s/move, total 6.96s
+2025-08-30 14:30:36,225 - games - INFO - Agent2 (Agent AlbertoAvg): 24 moves, avg 0.001s/move, total 0.02s
+2025-08-30 14:30:36,225 - __main__ - INFO - Game 2/2: Agent depth3_level2_run1(RIGHT) vs Agent AlbertoAvg
+2025-08-30 14:30:36,225 - games - INFO - GAME START: Agent depth3_level2_run1(RIGHT) vs Agent AlbertoAvg(LEFT)
+2025-08-30 14:31:00,007 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:31:00,007 - games - INFO - Duration: 23.78s, Moves: 200
+2025-08-30 14:31:00,007 - games - INFO - Agent1 (Agent depth3_level2_run1): 100 moves, avg 0.237s/move, total 23.71s
+2025-08-30 14:31:00,007 - games - INFO - Agent2 (Agent AlbertoAvg): 100 moves, avg 0.001s/move, total 0.07s
+2025-08-30 14:31:00,007 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 14:31:00,007 - __main__ - INFO - Final Score: Agent depth3_level2_run1 1.5 - 0.5 Agent AlbertoAvg
+2025-08-30 14:31:00,007 - __main__ - INFO - Color Performance - Agent depth3_level2_run1: LEFT 1/1, RIGHT 0/1
+2025-08-30 14:31:00,007 - __main__ - INFO - Color Performance - Agent AlbertoAvg: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:31:00,007 - __main__ - INFO - Average Move Times: Agent depth3_level2_run1 0.234s, Agent AlbertoAvg 0.001s
+2025-08-30 14:31:00,007 - __main__ - INFO - Match Duration: 30.76s
+2025-08-30 14:31:00,007 - __main__ - INFO - Match 10/10: Agent AlbertoBestAgent vs Agent AlbertoAvg
+2025-08-30 14:31:00,007 - __main__ - INFO - === MATCH START ===
+2025-08-30 14:31:00,007 - __main__ - INFO - Agent1: Agent AlbertoBestAgent (L2, D1)
+2025-08-30 14:31:00,007 - __main__ - INFO - Agent2: Agent AlbertoAvg (L2, D1)
+2025-08-30 14:31:00,007 - __main__ - INFO - Game 1/2: Agent AlbertoBestAgent(LEFT) vs Agent AlbertoAvg
+2025-08-30 14:31:00,007 - games - INFO - GAME START: Agent AlbertoBestAgent(LEFT) vs Agent AlbertoAvg(RIGHT)
+2025-08-30 14:31:00,293 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:31:00,293 - games - INFO - Duration: 0.29s, Moves: 200
+2025-08-30 14:31:00,293 - games - INFO - Agent1 (Agent AlbertoBestAgent): 100 moves, avg 0.001s/move, total 0.07s
+2025-08-30 14:31:00,293 - games - INFO - Agent2 (Agent AlbertoAvg): 100 moves, avg 0.002s/move, total 0.18s
+2025-08-30 14:31:00,293 - __main__ - INFO - Game 2/2: Agent AlbertoBestAgent(RIGHT) vs Agent AlbertoAvg
+2025-08-30 14:31:00,293 - games - INFO - GAME START: Agent AlbertoBestAgent(RIGHT) vs Agent AlbertoAvg(LEFT)
+2025-08-30 14:31:00,570 - games - INFO - GAME RESULT: draw wins
+2025-08-30 14:31:00,570 - games - INFO - Duration: 0.28s, Moves: 200
+2025-08-30 14:31:00,570 - games - INFO - Agent1 (Agent AlbertoBestAgent): 100 moves, avg 0.002s/move, total 0.16s
+2025-08-30 14:31:00,570 - games - INFO - Agent2 (Agent AlbertoAvg): 100 moves, avg 0.001s/move, total 0.09s
+2025-08-30 14:31:00,570 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 14:31:00,570 - __main__ - INFO - Final Score: Agent AlbertoBestAgent 1.0 - 1.0 Agent AlbertoAvg
+2025-08-30 14:31:00,570 - __main__ - INFO - Color Performance - Agent AlbertoBestAgent: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:31:00,570 - __main__ - INFO - Color Performance - Agent AlbertoAvg: LEFT 0/1, RIGHT 0/1
+2025-08-30 14:31:00,570 - __main__ - INFO - Average Move Times: Agent AlbertoBestAgent 0.001s, Agent AlbertoAvg 0.001s
+2025-08-30 14:31:00,570 - __main__ - INFO - Match Duration: 0.56s
+2025-08-30 14:31:00,570 - __main__ - INFO - === TOURNAMENT COMPLETED ===
+2025-08-30 14:31:00,570 - __main__ - INFO - Duration: 98.08s
+2025-08-30 14:31:00,570 - __main__ - INFO - Total matches: 10
+2025-08-30 14:31:00,570 - __main__ - INFO - Total games: 20
+2025-08-30 14:31:02,614 - __main__ - INFO - Generated 4 analysis plots
+2025-08-30 14:31:02,614 - __main__ - INFO - Enhanced results saved:
+2025-08-30 14:31:02,614 - __main__ - INFO -   main_results: Level2_AllAgents_200Turns\enhanced_tournament_20250830_143100.json
+2025-08-30 14:31:02,614 - __main__ - INFO -   agent_performance: Level2_AllAgents_200Turns\enhanced_tournament_20250830_143100_agent_performance.csv
+2025-08-30 14:31:02,614 - __main__ - INFO -   head_to_head: Level2_AllAgents_200Turns\enhanced_tournament_20250830_143100_head_to_head.csv
+2025-08-30 14:31:02,614 - __main__ - INFO -   detailed_games: Level2_AllAgents_200Turns\enhanced_tournament_20250830_143100_detailed_games.csv
+2025-08-30 14:31:02,614 - __main__ - INFO -   performance_overview: Level2_AllAgents_200Turns\plots\enhanced_tournament_20250830_143100_performance_overview.png
+2025-08-30 14:31:02,614 - __main__ - INFO -   color_analysis: Level2_AllAgents_200Turns\plots\enhanced_tournament_20250830_143100_color_analysis.png
+2025-08-30 14:31:02,614 - __main__ - INFO -   head_to_head_heatmap: Level2_AllAgents_200Turns\plots\enhanced_tournament_20250830_143100_head_to_head_heatmap.png
+2025-08-30 14:31:02,614 - __main__ - INFO -   timing_analysis: Level2_AllAgents_200Turns\plots\enhanced_tournament_20250830_143100_timing_analysis.png

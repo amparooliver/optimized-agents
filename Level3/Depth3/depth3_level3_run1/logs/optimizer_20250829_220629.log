@@ -1,0 +1,365 @@
+2025-08-29 22:06:29,908 - INFO - Initialized 24 features for level 3
+2025-08-29 22:06:29,908 - INFO - Starting weight optimization...
+2025-08-29 22:06:29,908 - INFO - Level: 3, Depth: 3
+2025-08-29 22:06:29,923 - INFO - Population: 5, Generations: 30
+2025-08-29 22:06:29,923 - INFO - Parallel: True, Workers: 10
+2025-08-29 22:06:29,923 - INFO - Initialized population of 5 individuals
+2025-08-29 22:06:29,923 - INFO - 
+--- Generation 1/30 ---
+2025-08-29 22:06:29,923 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,923 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,923 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,923 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,923 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,923 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,923 - INFO - Best fitness: 0.6833
+2025-08-29 22:06:29,923 - INFO - Top 5 fitness scores: [0.6833121634731708, 0.49837250787749754, 0.3727139852796977, 0.20191565146011714, 0.009780041542883144]
+2025-08-29 22:06:29,923 - INFO - Generation 0: Best=0.6833, Mean=0.3532, Std=0.2329
+2025-08-29 22:06:29,923 - INFO - 
+--- Generation 2/30 ---
+2025-08-29 22:06:29,923 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,923 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,923 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,923 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,923 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,923 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,923 - INFO - Best fitness: 0.9140
+2025-08-29 22:06:29,923 - INFO - Top 5 fitness scores: [0.9139833803749307, 0.7657920944384523, 0.6711523314625765, 0.642060247527976, 0.10614371495083386]
+2025-08-29 22:06:29,923 - INFO - Generation 1: Best=0.9140, Mean=0.6198, Std=0.2738
+2025-08-29 22:06:29,923 - INFO - 
+--- Generation 3/30 ---
+2025-08-29 22:06:29,923 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,923 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,923 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,923 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,923 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,923 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,923 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,923 - INFO - Top 5 fitness scores: [0.9905649983917086, 0.9770370966606602, 0.9652353784558895, 0.3595570151639659, 0.2354591217927895]
+2025-08-29 22:06:29,923 - INFO - Generation 2: Best=0.9906, Mean=0.7056, Std=0.3356
+2025-08-29 22:06:29,928 - INFO - 
+--- Generation 4/30 ---
+2025-08-29 22:06:29,928 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,928 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,928 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,928 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,928 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,929 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,929 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,930 - INFO - Top 5 fitness scores: [0.8147714834223101, 0.6087530383281179, 0.5667066096220339, 0.5068181594057467, 0.02176259737944708]
+2025-08-29 22:06:29,930 - INFO - Generation 3: Best=0.8148, Mean=0.5038, Std=0.2623
+2025-08-29 22:06:29,930 - INFO - 
+--- Generation 5/30 ---
+2025-08-29 22:06:29,930 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,930 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,930 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,930 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,930 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,931 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,931 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,931 - INFO - Top 5 fitness scores: [0.5530269518605668, 0.4092442778146058, 0.30189818211636554, 0.17332495555314675, 0.02069118264424641]
+2025-08-29 22:06:29,931 - INFO - Generation 4: Best=0.5530, Mean=0.2916, Std=0.1842
+2025-08-29 22:06:29,931 - INFO - 
+--- Generation 6/30 ---
+2025-08-29 22:06:29,931 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,932 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,932 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,932 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,932 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,933 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,933 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,933 - INFO - Top 5 fitness scores: [0.7104362307451885, 0.6119642217347054, 0.45155038877173903, 0.34153946569642435, 0.034897578511353666]
+2025-08-29 22:06:29,933 - INFO - Generation 5: Best=0.7104, Mean=0.4301, Std=0.2350
+2025-08-29 22:06:29,933 - INFO - 
+--- Generation 7/30 ---
+2025-08-29 22:06:29,933 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,933 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,933 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,933 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,933 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,933 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,933 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,933 - INFO - Top 5 fitness scores: [0.5578077183317857, 0.31595362803119353, 0.28372165691176043, 0.2687341440638623, 0.23680815571484937]
+2025-08-29 22:06:29,933 - INFO - Generation 6: Best=0.5578, Mean=0.3326, Std=0.1154
+2025-08-29 22:06:29,933 - INFO - 
+--- Generation 8/30 ---
+2025-08-29 22:06:29,933 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,933 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,933 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,933 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,933 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,933 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,933 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,933 - INFO - Top 5 fitness scores: [0.7392412099232316, 0.6686267382060425, 0.45850943444029724, 0.12244151772086942, 0.04111966701957104]
+2025-08-29 22:06:29,933 - INFO - Generation 7: Best=0.7392, Mean=0.4060, Std=0.2815
+2025-08-29 22:06:29,933 - INFO - 
+--- Generation 9/30 ---
+2025-08-29 22:06:29,933 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,933 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,933 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,933 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,933 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,933 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,933 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,933 - INFO - Top 5 fitness scores: [0.819047377594969, 0.4285435596273235, 0.24784955129119668, 0.13641089109785043, 0.030828712466353547]
+2025-08-29 22:06:29,933 - INFO - Generation 8: Best=0.8190, Mean=0.3325, Std=0.2766
+2025-08-29 22:06:29,933 - INFO - 
+--- Generation 10/30 ---
+2025-08-29 22:06:29,938 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,938 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,938 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,938 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,938 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,938 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,938 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,938 - INFO - Top 5 fitness scores: [0.8307978108905393, 0.41761101671541334, 0.38637686945795713, 0.37787409645311587, 0.31452727727578833]
+2025-08-29 22:06:29,939 - INFO - Generation 9: Best=0.8308, Mean=0.4654, Std=0.1857
+2025-08-29 22:06:29,939 - INFO - 
+--- Generation 11/30 ---
+2025-08-29 22:06:29,939 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,939 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,939 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,939 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,939 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,939 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,939 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,939 - INFO - Top 5 fitness scores: [0.9070572567520783, 0.8865246962386756, 0.8537599099434874, 0.29847154072156146, 0.1672849529156729]
+2025-08-29 22:06:29,939 - INFO - Generation 10: Best=0.9071, Mean=0.6226, Std=0.3214
+2025-08-29 22:06:29,940 - INFO - 
+--- Generation 12/30 ---
+2025-08-29 22:06:29,940 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,940 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,940 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,940 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,940 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,940 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,941 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,941 - INFO - Top 5 fitness scores: [0.7405751391130088, 0.6472341365862267, 0.6286341170503562, 0.39445826455619437, 0.32647035981251027]
+2025-08-29 22:06:29,941 - INFO - Generation 11: Best=0.7406, Mean=0.5475, Std=0.1588
+2025-08-29 22:06:29,941 - INFO - 
+--- Generation 13/30 ---
+2025-08-29 22:06:29,941 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,941 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,941 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,941 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,942 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,942 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,942 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,943 - INFO - Top 5 fitness scores: [0.7722412289042602, 0.7485054204063073, 0.6975633803454349, 0.6817580513612737, 0.5130511223240563]
+2025-08-29 22:06:29,943 - INFO - Generation 12: Best=0.7722, Mean=0.6826, Std=0.0909
+2025-08-29 22:06:29,943 - INFO - 
+--- Generation 14/30 ---
+2025-08-29 22:06:29,943 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,943 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,943 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,943 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,943 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,943 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,943 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,943 - INFO - Top 5 fitness scores: [0.8134713461266826, 0.7868132378612139, 0.7635618102594897, 0.3518542517062788, 0.10901900961324318]
+2025-08-29 22:06:29,943 - INFO - Generation 13: Best=0.8135, Mean=0.5649, Std=0.2842
+2025-08-29 22:06:29,943 - INFO - 
+--- Generation 15/30 ---
+2025-08-29 22:06:29,943 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,943 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,944 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,944 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,944 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,944 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,944 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,944 - INFO - Top 5 fitness scores: [0.8618951136326227, 0.7712225668708336, 0.5310889889569598, 0.3550758231552035, 0.2784850795465911]
+2025-08-29 22:06:29,945 - INFO - Generation 14: Best=0.8619, Mean=0.5596, Std=0.2271
+2025-08-29 22:06:29,945 - INFO - 
+--- Generation 16/30 ---
+2025-08-29 22:06:29,945 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,945 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,945 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,945 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,945 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,945 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,946 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,946 - INFO - Top 5 fitness scores: [0.701575571199949, 0.3394487872328851, 0.31237702141707346, 0.15826345030220845, 0.021997496951481788]
+2025-08-29 22:06:29,946 - INFO - Generation 15: Best=0.7016, Mean=0.3067, Std=0.2281
+2025-08-29 22:06:29,946 - INFO - 
+--- Generation 17/30 ---
+2025-08-29 22:06:29,946 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,946 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,946 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,946 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,946 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,946 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,946 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,946 - INFO - Top 5 fitness scores: [0.9713516129475809, 0.7394909687869438, 0.7310937503079735, 0.11456709016999578, 0.0007002577356550743]
+2025-08-29 22:06:29,947 - INFO - Generation 16: Best=0.9714, Mean=0.5114, Std=0.3821
+2025-08-29 22:06:29,947 - INFO - 
+--- Generation 18/30 ---
+2025-08-29 22:06:29,948 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,948 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,948 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,948 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,949 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,949 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,949 - INFO - Best fitness: 0.9906
+2025-08-29 22:06:29,949 - INFO - Top 5 fitness scores: [0.8321750630965217, 0.6328608149964874, 0.33577647043973446, 0.19046702370229285, 0.04286263795423717]
+2025-08-29 22:06:29,949 - INFO - Generation 17: Best=0.8322, Mean=0.4068, Std=0.2886
+2025-08-29 22:06:29,949 - INFO - 
+--- Generation 19/30 ---
+2025-08-29 22:06:29,949 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,949 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,949 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,949 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,949 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,949 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,950 - INFO - Best fitness: 0.9963
+2025-08-29 22:06:29,950 - INFO - Top 5 fitness scores: [0.9962535861277241, 0.7036449123918169, 0.4654199580627867, 0.18256950295787333, 0.12685762661021027]
+2025-08-29 22:06:29,950 - INFO - Generation 18: Best=0.9963, Mean=0.4949, Std=0.3252
+2025-08-29 22:06:29,950 - INFO - 
+--- Generation 20/30 ---
+2025-08-29 22:06:29,950 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,950 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,950 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,950 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,950 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,950 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,951 - INFO - Best fitness: 0.9963
+2025-08-29 22:06:29,951 - INFO - Top 5 fitness scores: [0.8755633211935334, 0.8559582223876852, 0.8304255274144378, 0.7373253530771745, 0.302085242945778]
+2025-08-29 22:06:29,951 - INFO - Generation 19: Best=0.8756, Mean=0.7203, Std=0.2144
+2025-08-29 22:06:29,951 - INFO - 
+--- Generation 21/30 ---
+2025-08-29 22:06:29,951 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,951 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,951 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,951 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,952 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,952 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,952 - INFO - Best fitness: 0.9963
+2025-08-29 22:06:29,952 - INFO - Top 5 fitness scores: [0.846241128186965, 0.5764685480548251, 0.5701161563371301, 0.08292939511678377, 0.05034122728915247]
+2025-08-29 22:06:29,952 - INFO - Generation 20: Best=0.8462, Mean=0.4252, Std=0.3095
+2025-08-29 22:06:29,952 - INFO - 
+--- Generation 22/30 ---
+2025-08-29 22:06:29,952 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,953 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,953 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,953 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,953 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,953 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,953 - INFO - Best fitness: 0.9963
+2025-08-29 22:06:29,953 - INFO - Top 5 fitness scores: [0.6166407425204558, 0.44018418105676893, 0.3976278531327956, 0.26357831514044894, 0.14229306771717543]
+2025-08-29 22:06:29,953 - INFO - Generation 21: Best=0.6166, Mean=0.3721, Std=0.1610
+2025-08-29 22:06:29,953 - INFO - 
+--- Generation 23/30 ---
+2025-08-29 22:06:29,954 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,954 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,954 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,954 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,954 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,954 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,955 - INFO - Best fitness: 0.9963
+2025-08-29 22:06:29,955 - INFO - Top 5 fitness scores: [0.8766663146435582, 0.8228376674422938, 0.6916097943561964, 0.2715949509281601, 0.26891569333473464]
+2025-08-29 22:06:29,955 - INFO - Generation 22: Best=0.8767, Mean=0.5863, Std=0.2650
+2025-08-29 22:06:29,955 - INFO - 
+--- Generation 24/30 ---
+2025-08-29 22:06:29,955 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,955 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,955 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,956 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,956 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,956 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,956 - INFO - Best fitness: 0.9963
+2025-08-29 22:06:29,956 - INFO - Top 5 fitness scores: [0.9574065829941689, 0.8773835123303484, 0.6786458806987179, 0.6190863381709746, 0.013479493920061425]
+2025-08-29 22:06:29,956 - INFO - Generation 23: Best=0.9574, Mean=0.6292, Std=0.3320
+2025-08-29 22:06:29,957 - INFO - 
+--- Generation 25/30 ---
+2025-08-29 22:06:29,957 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,957 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,957 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,957 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,957 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,957 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,958 - INFO - Best fitness: 0.9963
+2025-08-29 22:06:29,958 - INFO - Top 5 fitness scores: [0.8583137026641843, 0.6754310965611677, 0.2529861362745761, 0.06749703801130902, 0.04287799644417345]
+2025-08-29 22:06:29,958 - INFO - Generation 24: Best=0.8583, Mean=0.3794, Std=0.3297
+2025-08-29 22:06:29,958 - INFO - 
+--- Generation 26/30 ---
+2025-08-29 22:06:29,958 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,958 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,958 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,958 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,959 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,959 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,959 - INFO - Best fitness: 0.9963
+2025-08-29 22:06:29,959 - INFO - Top 5 fitness scores: [0.9019986377882896, 0.8870906333232845, 0.7753227015099778, 0.6303269869422589, 0.4335970759118002]
+2025-08-29 22:06:29,959 - INFO - Generation 25: Best=0.9020, Mean=0.7257, Std=0.1755
+2025-08-29 22:06:29,959 - INFO - 
+--- Generation 27/30 ---
+2025-08-29 22:06:29,959 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,959 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,959 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,959 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,960 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,960 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,960 - INFO - Best fitness: 0.9963
+2025-08-29 22:06:29,960 - INFO - Top 5 fitness scores: [0.8251231242950906, 0.6423491384754656, 0.4523509635645482, 0.03605358765312683, 0.02272485884772546]
+2025-08-29 22:06:29,960 - INFO - Generation 26: Best=0.8251, Mean=0.3957, Std=0.3215
+2025-08-29 22:06:29,960 - INFO - 
+--- Generation 28/30 ---
+2025-08-29 22:06:29,960 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,960 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,960 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,960 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,961 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,961 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,961 - INFO - Best fitness: 0.9963
+2025-08-29 22:06:29,961 - INFO - Top 5 fitness scores: [0.7237018356209188, 0.6980295268243624, 0.6476182525726794, 0.3225416476995774, 0.07970901853647949]
+2025-08-29 22:06:29,961 - INFO - Generation 27: Best=0.7237, Mean=0.4943, Std=0.2526
+2025-08-29 22:06:29,961 - INFO - 
+--- Generation 29/30 ---
+2025-08-29 22:06:29,961 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,961 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,961 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,961 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,961 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,961 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,961 - INFO - Best fitness: 0.9963
+2025-08-29 22:06:29,961 - INFO - Top 5 fitness scores: [0.9453663544160041, 0.872832551260675, 0.8389269001361328, 0.6262419379817472, 0.3451194014119543]
+2025-08-29 22:06:29,961 - INFO - Generation 28: Best=0.9454, Mean=0.7257, Std=0.2179
+2025-08-29 22:06:29,961 - INFO - 
+--- Generation 30/30 ---
+2025-08-29 22:06:29,961 - INFO - Starting population evaluation...
+2025-08-29 22:06:29,961 - INFO - Using sequential evaluation...
+2025-08-29 22:06:29,961 - INFO - Evaluating individual 1/5
+2025-08-29 22:06:29,961 - ERROR - Error in sequential evaluation: name 'MastergoalGame' is not defined
+2025-08-29 22:06:29,964 - WARNING - Falling back to random fitness assignment due to error
+2025-08-29 22:06:29,964 - INFO - Sequential evaluation completed in 0.00 seconds
+2025-08-29 22:06:29,964 - INFO - Best fitness: 0.9963
+2025-08-29 22:06:29,964 - INFO - Top 5 fitness scores: [0.7348362818985446, 0.7337235051794841, 0.4574450850217716, 0.06763425393937583, 0.052709841813409986]
+2025-08-29 22:06:29,964 - INFO - Generation 29: Best=0.7348, Mean=0.4093, Std=0.3025
+2025-08-29 22:06:29,967 - INFO - Results saved to results\optimization_results_20250829_220629.json
+2025-08-29 22:06:29,967 - INFO - 
+Optimization completed!
+2025-08-29 22:06:29,967 - INFO - Best fitness achieved: 0.9963
+2025-08-29 22:06:29,967 - INFO - Best weights:
+2025-08-29 22:06:29,967 - INFO -   avance_balon: 43.898
+2025-08-29 22:06:29,967 - INFO -   dist_balon_jug_1: -7.032
+2025-08-29 22:06:29,967 - INFO -   dist_balon_jug_2: 32.627
+2025-08-29 22:06:29,967 - INFO -   dist_balon_jug_3: -16.913
+2025-08-29 22:06:29,968 - INFO -   dist_balon_op_1: 27.855
+2025-08-29 22:06:29,968 - INFO -   dist_balon_op_2: -25.951
+2025-08-29 22:06:29,968 - INFO -   dist_balon_op_3: 31.503
+2025-08-29 22:06:29,968 - INFO -   avance_jug_1: -0.584
+2025-08-29 22:06:29,968 - INFO -   avance_jug_2: -19.895
+2025-08-29 22:06:29,968 - INFO -   avance_jug_3: -2.555
+2025-08-29 22:06:29,968 - INFO -   avance_op_1: 26.737
+2025-08-29 22:06:29,968 - INFO -   avance_op_2: -43.376
+2025-08-29 22:06:29,968 - INFO -   avance_op_3: 22.108
+2025-08-29 22:06:29,968 - INFO -   muy_cerca_borde_jug: -7.338
+2025-08-29 22:06:29,968 - INFO -   muy_cerca_borde_op: -33.533
+2025-08-29 22:06:29,968 - INFO -   arq_en_area_jug: 4.581
+2025-08-29 22:06:29,968 - INFO -   arq_en_area_op: 1.242
+2025-08-29 22:06:29,968 - INFO -   mas_cerca_balon: -35.725
+2025-08-29 22:06:29,968 - INFO -   casilla_neutra: -7.929
+2025-08-29 22:06:29,968 - INFO -   casilla_especial: 34.832
+2025-08-29 22:06:29,968 - INFO -   muy_cerca_jug: -20.378
+2025-08-29 22:06:29,968 - INFO -   muy_lejos_jug: 29.864
+2025-08-29 22:06:29,968 - INFO -   muy_cerca_op: -48.109
+2025-08-29 22:06:29,968 - INFO -   muy_lejos_op: -2.230

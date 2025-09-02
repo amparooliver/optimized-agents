@@ -1,0 +1,4 @@
+Agent1,Agent2,Agent1_Score,Agent2_Score,Agent1_Wins,Agent2_Wins,Draws,Agent1_Wins_as_LEFT,Agent1_Wins_as_RIGHT,Agent2_Wins_as_LEFT,Agent2_Wins_as_RIGHT,Agent1_Win_Rate,Agent2_Win_Rate,Agent1_LEFT_Win_Rate,Agent1_RIGHT_Win_Rate,Agent1_Avg_Move_Time,Agent2_Avg_Move_Time,Speed_Advantage_Agent1,Match_Duration
+Agent depth1_level3_run2,Agent depth2_level3_run1,1.0,1.0,0,0,2,0,0,0,0,0.000,0.000,0.000,0.000,0.009,0.203,0.193,21.69
+Agent depth1_level3_run2,Agent depth3_level3_run1,1.0,1.0,0,0,2,0,0,0,0,0.000,0.000,0.000,0.000,0.009,3.053,3.044,333.80
+Agent depth2_level3_run1,Agent depth3_level3_run1,0.5,1.5,0,1,1,0,0,1,0,0.000,0.500,0.000,0.000,0.155,5.706,5.551,322.78

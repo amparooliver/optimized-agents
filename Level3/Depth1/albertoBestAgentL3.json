@@ -1,0 +1,30 @@
+{
+  "level": 3,
+  "minimax_depth": 1,
+  "weights": {
+    "avance_balon": 99,
+    "dist_balon_jug_1": -91,
+    "dist_balon_jug_2": -1,
+    "dist_balon_jug_3": -75,
+    "dist_balon_op_1": 62,
+    "dist_balon_op_2": 36,
+    "dist_balon_op_3": 32,
+    "avance_jug_1": 86, 
+    "avance_jug_2": 91,
+    "avance_jug_3": 82,
+    "avance_op_1": -36,
+    "avance_op_2": 31,
+    "avance_op_3": -52,
+    "muy_cerca_borde_jug": -34,
+    "muy_cerca_borde_op": 13,
+    "arq_en_area_jug": -41,
+    "arq_en_area_op": -59,
+    "mas_cerca_balon": 8,
+    "casilla_neutra": 82,
+    "casilla_especial": -39,
+    "muy_cerca_jug": -17,
+    "muy_lejos_jug": 81,
+    "muy_cerca_op": 51,
+    "muy_lejos_op": 48
+  }
+}

@@ -1,0 +1,6 @@
+Agent_Name,Level,Minimax_Depth,Weight_Source,Fitness_Score,Generation,Total_Games,Wins,Losses,Draws,Score,Win_Rate,Score_Rate,Wins_as_LEFT,Wins_as_RIGHT,LEFT_Win_Rate,RIGHT_Win_Rate,Color_Advantage,Avg_Move_Time,Total_Thinking_Time,Move_Time_Std
+Agent depth2_level1_run2,1,2,unknown,0.55,,8,3,0,5,5.5,0.375,0.688,3,0,0.750,0.000,0.750,0.005,1.71,0.002
+Agent depth3_level1_run1,1,3,unknown,0.55,,8,3,0,5,5.5,0.375,0.688,0,3,0.000,0.750,-0.750,0.039,23.51,0.007
+Agent depth1_level1_run2,1,1,unknown,0.5275000000000001,,8,0,2,6,3.0,0.000,0.375,0,0,0.000,0.000,0.000,0.001,0.21,0.000
+Agent Alberto_Best_Agent_D1_L1,1,1,baseline,,,8,0,2,6,3.0,0.000,0.375,0,0,0.000,0.000,0.000,0.000,0.28,0.000
+Agent Alberto_10_Avg_D1_L1,1,1,unknown,,,8,0,2,6,3.0,0.000,0.375,0,0,0.000,0.000,0.000,0.001,0.34,0.001

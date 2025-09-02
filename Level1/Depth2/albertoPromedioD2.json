@@ -1,0 +1,14 @@
+{
+  "level": 1,
+  "minimax_depth": 2,
+  "weights": {
+    "avance_balon": 88.123,
+    "dist_balon_jug": -93.866,
+    "dist_balon_op": 53.514,
+    "avance_jug": -12.225,
+    "avance_op": -41.860,
+    "dist_col_balon_jug": 59.456,
+    "dist_col_balon_op": -1.953,
+    "mas_cerca_balon": 8.207
+  }
+}

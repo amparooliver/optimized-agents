@@ -1,0 +1,23 @@
+{
+  "level": 2,
+  "minimax_depth": 1,
+  "weights": {
+    "avance_balon": 96,
+    "min_dist_balon_jug": -25,
+    "max_dist_balon_jug": -77,
+    "min_dist_balon_op": 26,
+    "max_dist_balon_op": 52,
+    "max_avance_jug": -96,
+    "min_avance_jug": 21,
+    "max_avance_op": 22,
+    "min_avance_op": -21,
+    "muy_cerca_borde_jug": -76,
+    "muy_cerca_borde_op": 13,
+    "mas_cerca_balon": 67,
+    "casilla_neutra": -36,
+    "muy_cerca_jug": -1,
+    "muy_lejos_jug": -20,
+    "muy_cerca_op": 28,
+    "muy_lejos_op": 41
+  }
+}

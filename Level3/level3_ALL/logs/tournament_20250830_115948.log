@@ -1,0 +1,121 @@
+2025-08-30 11:59:48,209 - __main__ - INFO - === AGENT REGISTRATION ===
+2025-08-30 11:59:48,209 - __main__ - INFO - Name: Agent depth1_level3_run2
+2025-08-30 11:59:48,209 - __main__ - INFO - Level: 3
+2025-08-30 11:59:48,209 - __main__ - INFO - Minimax Depth: 1
+2025-08-30 11:59:48,209 - __main__ - INFO - Weight Source: unknown
+2025-08-30 11:59:48,209 - __main__ - INFO - Weights File: ../Level3/Depth1/depth1_level3_run1/optimized_weights.json
+2025-08-30 11:59:48,209 - __main__ - INFO - Fitness Score: 0.3875
+2025-08-30 11:59:48,209 - __main__ - INFO - Training Games: 40
+2025-08-30 11:59:48,209 - __main__ - INFO - Description: L3_D1_F0.39_T40
+2025-08-30 11:59:48,209 - __main__ - INFO - Feature Weights Loaded: 24 features
+2025-08-30 11:59:48,209 - __main__ - INFO - Sample Weights: {'avance_balon': 14.478344954013483, 'dist_balon_jug_1': 20.480861027793814, 'dist_balon_jug_2': -13.601200441398976, 'dist_balon_jug_3': -34.116710710014225, 'dist_balon_op_1': -25.797269774163986}
+2025-08-30 11:59:48,209 - __main__ - INFO - === AGENT REGISTRATION ===
+2025-08-30 11:59:48,209 - __main__ - INFO - Name: Agent depth2_level3_run1
+2025-08-30 11:59:48,209 - __main__ - INFO - Level: 3
+2025-08-30 11:59:48,209 - __main__ - INFO - Minimax Depth: 2
+2025-08-30 11:59:48,209 - __main__ - INFO - Weight Source: unknown
+2025-08-30 11:59:48,209 - __main__ - INFO - Weights File: ../Level3/Depth2/depth2_level3_run1/optimized_weights.json
+2025-08-30 11:59:48,209 - __main__ - INFO - Fitness Score: 0.4925
+2025-08-30 11:59:48,209 - __main__ - INFO - Training Games: 40
+2025-08-30 11:59:48,209 - __main__ - INFO - Description: L3_D2_F0.49_T40
+2025-08-30 11:59:48,209 - __main__ - INFO - Feature Weights Loaded: 24 features
+2025-08-30 11:59:48,209 - __main__ - INFO - Sample Weights: {'avance_balon': -5.055149865977364, 'dist_balon_jug_1': -7.070009110751138, 'dist_balon_jug_2': 31.217884096884337, 'dist_balon_jug_3': -14.423753304274381, 'dist_balon_op_1': 0.2952370398461053}
+2025-08-30 11:59:48,209 - __main__ - INFO - === AGENT REGISTRATION ===
+2025-08-30 11:59:48,209 - __main__ - INFO - Name: Agent depth3_level3_run1
+2025-08-30 11:59:48,209 - __main__ - INFO - Level: 3
+2025-08-30 11:59:48,209 - __main__ - INFO - Minimax Depth: 3
+2025-08-30 11:59:48,209 - __main__ - INFO - Weight Source: unknown
+2025-08-30 11:59:48,209 - __main__ - INFO - Weights File: ../Level3/Depth3/depth3_level3_run1/optimized_weights.json
+2025-08-30 11:59:48,209 - __main__ - INFO - Fitness Score: 0.4375
+2025-08-30 11:59:48,209 - __main__ - INFO - Training Games: 8
+2025-08-30 11:59:48,209 - __main__ - INFO - Description: L3_D3_F0.44_T8
+2025-08-30 11:59:48,209 - __main__ - INFO - Feature Weights Loaded: 24 features
+2025-08-30 11:59:48,209 - __main__ - INFO - Sample Weights: {'avance_balon': -38.62574311722523, 'dist_balon_jug_1': 34.54944685223805, 'dist_balon_jug_2': 8.895938957090664, 'dist_balon_jug_3': -21.81636562197977, 'dist_balon_op_1': -14.186017003319627}
+2025-08-30 11:59:48,209 - __main__ - INFO - === TOURNAMENT START ===
+2025-08-30 11:59:48,209 - __main__ - INFO - Agents: 3 registered
+2025-08-30 11:59:48,209 - __main__ - INFO - Format: 2 games per match (1 as LEFT, 1 as RIGHT)
+2025-08-30 11:59:48,209 - __main__ - INFO - Max moves per game: 100
+2025-08-30 11:59:48,209 - __main__ - INFO - Time limit per move: 400.0s
+2025-08-30 11:59:48,209 - __main__ - INFO -   Agent depth1_level3_run2: L3 D1 (unknown)
+2025-08-30 11:59:48,209 - __main__ - INFO -   Agent depth2_level3_run1: L3 D2 (unknown)
+2025-08-30 11:59:48,209 - __main__ - INFO -   Agent depth3_level3_run1: L3 D3 (unknown)
+2025-08-30 11:59:48,209 - __main__ - INFO - Match 1/3: Agent depth1_level3_run2 vs Agent depth2_level3_run1
+2025-08-30 11:59:48,209 - __main__ - INFO - === MATCH START ===
+2025-08-30 11:59:48,214 - __main__ - INFO - Agent1: Agent depth1_level3_run2 (L3, D1)
+2025-08-30 11:59:48,214 - __main__ - INFO - Agent2: Agent depth2_level3_run1 (L3, D2)
+2025-08-30 11:59:48,214 - __main__ - INFO - Game 1/2: Agent depth1_level3_run2(LEFT) vs Agent depth2_level3_run1
+2025-08-30 11:59:48,219 - games - INFO - GAME START: Agent depth1_level3_run2(LEFT) vs Agent depth2_level3_run1(RIGHT)
+2025-08-30 12:00:03,699 - games - INFO - GAME RESULT: draw wins
+2025-08-30 12:00:03,699 - games - INFO - Duration: 15.48s, Moves: 100
+2025-08-30 12:00:03,699 - games - INFO - Agent1 (Agent depth1_level3_run2): 50 moves, avg 0.011s/move, total 0.54s
+2025-08-30 12:00:03,699 - games - INFO - Agent2 (Agent depth2_level3_run1): 50 moves, avg 0.298s/move, total 14.89s
+2025-08-30 12:00:03,699 - __main__ - INFO - Game 2/2: Agent depth1_level3_run2(RIGHT) vs Agent depth2_level3_run1
+2025-08-30 12:00:03,699 - games - INFO - GAME START: Agent depth1_level3_run2(RIGHT) vs Agent depth2_level3_run1(LEFT)
+2025-08-30 12:00:09,906 - games - INFO - GAME RESULT: draw wins
+2025-08-30 12:00:09,906 - games - INFO - Duration: 6.21s, Moves: 100
+2025-08-30 12:00:09,907 - games - INFO - Agent1 (Agent depth1_level3_run2): 46 moves, avg 0.007s/move, total 0.34s
+2025-08-30 12:00:09,907 - games - INFO - Agent2 (Agent depth2_level3_run1): 54 moves, avg 0.107s/move, total 5.80s
+2025-08-30 12:00:09,907 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 12:00:09,907 - __main__ - INFO - Final Score: Agent depth1_level3_run2 1.0 - 1.0 Agent depth2_level3_run1
+2025-08-30 12:00:09,907 - __main__ - INFO - Color Performance - Agent depth1_level3_run2: LEFT 0/1, RIGHT 0/1
+2025-08-30 12:00:09,907 - __main__ - INFO - Color Performance - Agent depth2_level3_run1: LEFT 0/1, RIGHT 0/1
+2025-08-30 12:00:09,907 - __main__ - INFO - Average Move Times: Agent depth1_level3_run2 0.009s, Agent depth2_level3_run1 0.203s
+2025-08-30 12:00:09,907 - __main__ - INFO - Match Duration: 21.69s
+2025-08-30 12:00:09,909 - __main__ - INFO - Match 2/3: Agent depth1_level3_run2 vs Agent depth3_level3_run1
+2025-08-30 12:00:09,909 - __main__ - INFO - === MATCH START ===
+2025-08-30 12:00:09,909 - __main__ - INFO - Agent1: Agent depth1_level3_run2 (L3, D1)
+2025-08-30 12:00:09,909 - __main__ - INFO - Agent2: Agent depth3_level3_run1 (L3, D3)
+2025-08-30 12:00:09,909 - __main__ - INFO - Game 1/2: Agent depth1_level3_run2(LEFT) vs Agent depth3_level3_run1
+2025-08-30 12:00:09,909 - games - INFO - GAME START: Agent depth1_level3_run2(LEFT) vs Agent depth3_level3_run1(RIGHT)
+2025-08-30 12:03:59,199 - games - INFO - GAME RESULT: draw wins
+2025-08-30 12:03:59,201 - games - INFO - Duration: 229.29s, Moves: 100
+2025-08-30 12:03:59,201 - games - INFO - Agent1 (Agent depth1_level3_run2): 50 moves, avg 0.011s/move, total 0.53s
+2025-08-30 12:03:59,201 - games - INFO - Agent2 (Agent depth3_level3_run1): 50 moves, avg 4.574s/move, total 228.69s
+2025-08-30 12:03:59,201 - __main__ - INFO - Game 2/2: Agent depth1_level3_run2(RIGHT) vs Agent depth3_level3_run1
+2025-08-30 12:03:59,201 - games - INFO - GAME START: Agent depth1_level3_run2(RIGHT) vs Agent depth3_level3_run1(LEFT)
+2025-08-30 12:05:43,707 - games - INFO - GAME RESULT: draw wins
+2025-08-30 12:05:43,707 - games - INFO - Duration: 104.51s, Moves: 100
+2025-08-30 12:05:43,707 - games - INFO - Agent1 (Agent depth1_level3_run2): 32 moves, avg 0.008s/move, total 0.25s
+2025-08-30 12:05:43,707 - games - INFO - Agent2 (Agent depth3_level3_run1): 68 moves, avg 1.533s/move, total 104.23s
+2025-08-30 12:05:43,707 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 12:05:43,707 - __main__ - INFO - Final Score: Agent depth1_level3_run2 1.0 - 1.0 Agent depth3_level3_run1
+2025-08-30 12:05:43,707 - __main__ - INFO - Color Performance - Agent depth1_level3_run2: LEFT 0/1, RIGHT 0/1
+2025-08-30 12:05:43,707 - __main__ - INFO - Color Performance - Agent depth3_level3_run1: LEFT 0/1, RIGHT 0/1
+2025-08-30 12:05:43,707 - __main__ - INFO - Average Move Times: Agent depth1_level3_run2 0.009s, Agent depth3_level3_run1 3.053s
+2025-08-30 12:05:43,707 - __main__ - INFO - Match Duration: 333.80s
+2025-08-30 12:05:43,707 - __main__ - INFO - Match 3/3: Agent depth2_level3_run1 vs Agent depth3_level3_run1
+2025-08-30 12:05:43,707 - __main__ - INFO - === MATCH START ===
+2025-08-30 12:05:43,707 - __main__ - INFO - Agent1: Agent depth2_level3_run1 (L3, D2)
+2025-08-30 12:05:43,707 - __main__ - INFO - Agent2: Agent depth3_level3_run1 (L3, D3)
+2025-08-30 12:05:43,707 - __main__ - INFO - Game 1/2: Agent depth2_level3_run1(LEFT) vs Agent depth3_level3_run1
+2025-08-30 12:05:43,707 - games - INFO - GAME START: Agent depth2_level3_run1(LEFT) vs Agent depth3_level3_run1(RIGHT)
+2025-08-30 12:07:30,865 - games - INFO - GAME RESULT: draw wins
+2025-08-30 12:07:30,865 - games - INFO - Duration: 107.16s, Moves: 100
+2025-08-30 12:07:30,865 - games - INFO - Agent1 (Agent depth2_level3_run1): 54 moves, avg 0.065s/move, total 3.50s
+2025-08-30 12:07:30,865 - games - INFO - Agent2 (Agent depth3_level3_run1): 46 moves, avg 2.253s/move, total 103.63s
+2025-08-30 12:07:30,881 - __main__ - INFO - Game 2/2: Agent depth2_level3_run1(RIGHT) vs Agent depth3_level3_run1
+2025-08-30 12:07:30,881 - games - INFO - GAME START: Agent depth2_level3_run1(RIGHT) vs Agent depth3_level3_run1(LEFT)
+2025-08-30 12:11:06,484 - games - INFO - GAME RESULT: agent2 wins
+2025-08-30 12:11:06,484 - games - INFO - Duration: 215.60s, Moves: 43
+2025-08-30 12:11:06,484 - games - INFO - Agent1 (Agent depth2_level3_run1): 20 moves, avg 0.246s/move, total 4.92s
+2025-08-30 12:11:06,484 - games - INFO - Agent2 (Agent depth3_level3_run1): 23 moves, avg 9.160s/move, total 210.68s
+2025-08-30 12:11:06,484 - __main__ - INFO - === MATCH COMPLETED ===
+2025-08-30 12:11:06,484 - __main__ - INFO - Final Score: Agent depth2_level3_run1 0.5 - 1.5 Agent depth3_level3_run1
+2025-08-30 12:11:06,484 - __main__ - INFO - Color Performance - Agent depth2_level3_run1: LEFT 0/1, RIGHT 0/1
+2025-08-30 12:11:06,484 - __main__ - INFO - Color Performance - Agent depth3_level3_run1: LEFT 1/1, RIGHT 0/1
+2025-08-30 12:11:06,484 - __main__ - INFO - Average Move Times: Agent depth2_level3_run1 0.155s, Agent depth3_level3_run1 5.706s
+2025-08-30 12:11:06,484 - __main__ - INFO - Match Duration: 322.78s
+2025-08-30 12:11:06,484 - __main__ - INFO - === TOURNAMENT COMPLETED ===
+2025-08-30 12:11:06,484 - __main__ - INFO - Duration: 678.28s
+2025-08-30 12:11:06,484 - __main__ - INFO - Total matches: 3
+2025-08-30 12:11:06,484 - __main__ - INFO - Total games: 6
+2025-08-30 12:11:08,718 - __main__ - INFO - Generated 4 analysis plots
+2025-08-30 12:11:08,718 - __main__ - INFO - Enhanced results saved:
+2025-08-30 12:11:08,718 - __main__ - INFO -   main_results: MOD3_AGENTS\enhanced_tournament_20250830_121106.json
+2025-08-30 12:11:08,718 - __main__ - INFO -   agent_performance: MOD3_AGENTS\enhanced_tournament_20250830_121106_agent_performance.csv
+2025-08-30 12:11:08,718 - __main__ - INFO -   head_to_head: MOD3_AGENTS\enhanced_tournament_20250830_121106_head_to_head.csv
+2025-08-30 12:11:08,718 - __main__ - INFO -   detailed_games: MOD3_AGENTS\enhanced_tournament_20250830_121106_detailed_games.csv
+2025-08-30 12:11:08,718 - __main__ - INFO -   performance_overview: MOD3_AGENTS\plots\enhanced_tournament_20250830_121106_performance_overview.png
+2025-08-30 12:11:08,718 - __main__ - INFO -   color_analysis: MOD3_AGENTS\plots\enhanced_tournament_20250830_121106_color_analysis.png
+2025-08-30 12:11:08,718 - __main__ - INFO -   head_to_head_heatmap: MOD3_AGENTS\plots\enhanced_tournament_20250830_121106_head_to_head_heatmap.png
+2025-08-30 12:11:08,718 - __main__ - INFO -   timing_analysis: MOD3_AGENTS\plots\enhanced_tournament_20250830_121106_timing_analysis.png

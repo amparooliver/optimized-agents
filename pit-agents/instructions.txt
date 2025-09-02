@@ -1,8 +1,25 @@
 # Run your tournament with the enhanced system
-python enhanced_pit.py --games 2 --output-dir thesis_results --seed 42
+python pit.py --games 2 --output-dir thesis_results --seed 42
 
 # Quick test with sample data
-python enhanced_pit.py --quick --seed 42
+python pit.py --quick --seed 42
 
 # Generate only plots from existing results
-python enhanced_pit.py --plots-only
+python pit.py --plots-only
+
+        print("\n=== REGISTERING AGENTS ===")
+        # Register your actual agents here
+        agent_files = [
+            #("Agent depth1_level1_run1", "../Level1/Depth1/depth1_level1_run1/optimized_weights.json"),
+            ("Agent depth1_level1_run2", "../Level1/Depth1/depth1_level1_run2/optimized_weights.json"),
+            #("Agent depth1_level1_run3", "../Level1/Depth1/depth1_level1_run3/optimized_weights.json"),
+            #("Agent Alberto Default", "../Level1/Depth1/albertoDefaultL1D1.json"),
+            #("Agent Alberto Avg 10", "../Level1/Depth1/albertoPromedioD1.json"),
+            # Add more agents as needed
+            #("Agent depth2_level1_run1", "../Level1/Depth2/depth2_level1_run1/optimized_weights.json"),
+            ("Agent depth2_level1_run2", "../Level1/Depth2/depth2_level1_run2/optimized_weights.json"),
+            #("Agent depth2_level1_run3", "../Level1/Depth2/depth2_level1_run3/optimized_weights.json"),
+            ("Agent depth3_level1_run1", "../Level1/Depth2/depth2_level1_run2/optimized_weights.json"),
+            ("Agent Alberto Default", "../Level1/Depth1/albertoDefaultL1D1.json"),
+            ("Agent Alberto Avg 10", "../Level1/Depth1/albertoPromedioD1.json"),
+        ]

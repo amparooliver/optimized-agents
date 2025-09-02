@@ -1,0 +1,28 @@
+{
+  "level": 2,
+  "minimax_depth": 3,
+  "fitness": 0.8,
+  "games_played": 40,
+  "wins": 32,
+  "draws": 0,
+  "losses": 8,
+  "weights": {
+    "avance_balon": 5.649061927500951,
+    "min_dist_balon_jug": 49.0693034266249,
+    "max_dist_balon_jug": 29.392624187884863,
+    "min_dist_balon_op": 0.5007091761663478,
+    "max_dist_balon_op": 25.115955522211593,
+    "max_avance_jug": -35.48338839227918,
+    "min_avance_jug": 38.90211699444734,
+    "max_avance_op": -42.914212462912595,
+    "min_avance_op": -20.911360759261182,
+    "muy_cerca_borde_jug": 15.303816506340283,
+    "muy_cerca_borde_op": 31.450949875189675,
+    "mas_cerca_balon": 19.028919271921584,
+    "casilla_neutra": 14.485594123393401,
+    "muy_cerca_jug": 21.20429794321028,
+    "muy_lejos_jug": -14.952255731487222,
+    "muy_cerca_op": -23.888914886891634,
+    "muy_lejos_op": 21.118151931016087
+  }
+}

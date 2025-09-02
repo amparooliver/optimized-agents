@@ -102,7 +102,7 @@ class LinearEvaluator:
         
         # Player and opponent advancement
         features['avance_jug'] = player.position.row - mid_row
-        features['avance_op'] = mid_row - opponent.position.row # CHANGED
+        features['avance_op'] = mid_row - opponent.position.row 
         
         if team == game.RIGHT:
             features['avance_jug'] *= -1

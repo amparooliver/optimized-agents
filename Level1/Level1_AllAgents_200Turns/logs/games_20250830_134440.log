@@ -1,0 +1,100 @@
+2025-08-30 13:44:40,504 - GAME START: Agent depth1_level1_run2(LEFT) vs Agent depth2_level1_run2(RIGHT)
+2025-08-30 13:44:40,845 - GAME RESULT: draw wins
+2025-08-30 13:44:40,845 - Duration: 0.34s, Moves: 200
+2025-08-30 13:44:40,845 - Agent1 (Agent depth1_level1_run2): 101 moves, avg 0.000s/move, total 0.02s
+2025-08-30 13:44:40,845 - Agent2 (Agent depth2_level1_run2): 99 moves, avg 0.003s/move, total 0.30s
+2025-08-30 13:44:40,845 - GAME START: Agent depth1_level1_run2(RIGHT) vs Agent depth2_level1_run2(LEFT)
+2025-08-30 13:44:40,889 - GAME RESULT: agent2 wins
+2025-08-30 13:44:40,889 - Duration: 0.04s, Moves: 8
+2025-08-30 13:44:40,891 - Agent1 (Agent depth1_level1_run2): 3 moves, avg 0.001s/move, total 0.00s
+2025-08-30 13:44:40,891 - Agent2 (Agent depth2_level1_run2): 5 moves, avg 0.008s/move, total 0.04s
+2025-08-30 13:44:40,893 - GAME START: Agent depth1_level1_run2(LEFT) vs Agent depth3_level1_run1(RIGHT)
+2025-08-30 13:44:41,180 - GAME RESULT: agent2 wins
+2025-08-30 13:44:41,180 - Duration: 0.29s, Moves: 10
+2025-08-30 13:44:41,180 - Agent1 (Agent depth1_level1_run2): 4 moves, avg 0.001s/move, total 0.01s
+2025-08-30 13:44:41,180 - Agent2 (Agent depth3_level1_run1): 6 moves, avg 0.047s/move, total 0.28s
+2025-08-30 13:44:41,180 - GAME START: Agent depth1_level1_run2(RIGHT) vs Agent depth3_level1_run1(LEFT)
+2025-08-30 13:44:46,748 - GAME RESULT: draw wins
+2025-08-30 13:44:46,748 - Duration: 5.57s, Moves: 200
+2025-08-30 13:44:46,748 - Agent1 (Agent depth1_level1_run2): 67 moves, avg 0.000s/move, total 0.02s
+2025-08-30 13:44:46,748 - Agent2 (Agent depth3_level1_run1): 133 moves, avg 0.042s/move, total 5.54s
+2025-08-30 13:44:46,764 - GAME START: Agent depth1_level1_run2(LEFT) vs Agent Alberto_Best_Agent_D1_L1(RIGHT)
+2025-08-30 13:44:46,868 - GAME RESULT: draw wins
+2025-08-30 13:44:46,868 - Duration: 0.10s, Moves: 200
+2025-08-30 13:44:46,868 - Agent1 (Agent depth1_level1_run2): 101 moves, avg 0.000s/move, total 0.02s
+2025-08-30 13:44:46,868 - Agent2 (Agent Alberto_Best_Agent_D1_L1): 99 moves, avg 0.001s/move, total 0.07s
+2025-08-30 13:44:46,868 - GAME START: Agent depth1_level1_run2(RIGHT) vs Agent Alberto_Best_Agent_D1_L1(LEFT)
+2025-08-30 13:44:46,985 - GAME RESULT: draw wins
+2025-08-30 13:44:46,985 - Duration: 0.12s, Moves: 200
+2025-08-30 13:44:46,985 - Agent1 (Agent depth1_level1_run2): 100 moves, avg 0.001s/move, total 0.06s
+2025-08-30 13:44:46,985 - Agent2 (Agent Alberto_Best_Agent_D1_L1): 100 moves, avg 0.001s/move, total 0.05s
+2025-08-30 13:44:46,985 - GAME START: Agent depth1_level1_run2(LEFT) vs Agent Alberto_10_Avg_D1_L1(RIGHT)
+2025-08-30 13:44:47,082 - GAME RESULT: draw wins
+2025-08-30 13:44:47,082 - Duration: 0.10s, Moves: 200
+2025-08-30 13:44:47,082 - Agent1 (Agent depth1_level1_run2): 101 moves, avg 0.000s/move, total 0.02s
+2025-08-30 13:44:47,082 - Agent2 (Agent Alberto_10_Avg_D1_L1): 99 moves, avg 0.001s/move, total 0.07s
+2025-08-30 13:44:47,082 - GAME START: Agent depth1_level1_run2(RIGHT) vs Agent Alberto_10_Avg_D1_L1(LEFT)
+2025-08-30 13:44:47,184 - GAME RESULT: draw wins
+2025-08-30 13:44:47,184 - Duration: 0.10s, Moves: 200
+2025-08-30 13:44:47,184 - Agent1 (Agent depth1_level1_run2): 99 moves, avg 0.001s/move, total 0.07s
+2025-08-30 13:44:47,184 - Agent2 (Agent Alberto_10_Avg_D1_L1): 101 moves, avg 0.000s/move, total 0.03s
+2025-08-30 13:44:47,184 - GAME START: Agent depth2_level1_run2(LEFT) vs Agent depth3_level1_run1(RIGHT)
+2025-08-30 13:44:49,900 - GAME RESULT: draw wins
+2025-08-30 13:44:49,900 - Duration: 2.72s, Moves: 200
+2025-08-30 13:44:49,900 - Agent1 (Agent depth2_level1_run2): 101 moves, avg 0.004s/move, total 0.40s
+2025-08-30 13:44:49,900 - Agent2 (Agent depth3_level1_run1): 99 moves, avg 0.023s/move, total 2.31s
+2025-08-30 13:44:49,900 - GAME START: Agent depth2_level1_run2(RIGHT) vs Agent depth3_level1_run1(LEFT)
+2025-08-30 13:44:54,545 - GAME RESULT: draw wins
+2025-08-30 13:44:54,546 - Duration: 4.64s, Moves: 200
+2025-08-30 13:44:54,546 - Agent1 (Agent depth2_level1_run2): 69 moves, avg 0.004s/move, total 0.31s
+2025-08-30 13:44:54,546 - Agent2 (Agent depth3_level1_run1): 131 moves, avg 0.033s/move, total 4.32s
+2025-08-30 13:44:54,547 - GAME START: Agent depth2_level1_run2(LEFT) vs Agent Alberto_Best_Agent_D1_L1(RIGHT)
+2025-08-30 13:44:54,602 - GAME RESULT: agent1 wins
+2025-08-30 13:44:54,602 - Duration: 0.06s, Moves: 11
+2025-08-30 13:44:54,602 - Agent1 (Agent depth2_level1_run2): 7 moves, avg 0.008s/move, total 0.06s
+2025-08-30 13:44:54,602 - Agent2 (Agent Alberto_Best_Agent_D1_L1): 4 moves, avg 0.000s/move, total 0.00s
+2025-08-30 13:44:54,602 - GAME START: Agent depth2_level1_run2(RIGHT) vs Agent Alberto_Best_Agent_D1_L1(LEFT)
+2025-08-30 13:44:55,041 - GAME RESULT: draw wins
+2025-08-30 13:44:55,041 - Duration: 0.44s, Moves: 200
+2025-08-30 13:44:55,041 - Agent1 (Agent depth2_level1_run2): 100 moves, avg 0.004s/move, total 0.41s
+2025-08-30 13:44:55,041 - Agent2 (Agent Alberto_Best_Agent_D1_L1): 100 moves, avg 0.000s/move, total 0.02s
+2025-08-30 13:44:55,041 - GAME START: Agent depth2_level1_run2(LEFT) vs Agent Alberto_10_Avg_D1_L1(RIGHT)
+2025-08-30 13:44:55,095 - GAME RESULT: agent1 wins
+2025-08-30 13:44:55,095 - Duration: 0.05s, Moves: 11
+2025-08-30 13:44:55,095 - Agent1 (Agent depth2_level1_run2): 7 moves, avg 0.008s/move, total 0.05s
+2025-08-30 13:44:55,096 - Agent2 (Agent Alberto_10_Avg_D1_L1): 4 moves, avg 0.000s/move, total 0.00s
+2025-08-30 13:44:55,096 - GAME START: Agent depth2_level1_run2(RIGHT) vs Agent Alberto_10_Avg_D1_L1(LEFT)
+2025-08-30 13:44:55,283 - GAME RESULT: draw wins
+2025-08-30 13:44:55,283 - Duration: 0.19s, Moves: 200
+2025-08-30 13:44:55,283 - Agent1 (Agent depth2_level1_run2): 99 moves, avg 0.001s/move, total 0.15s
+2025-08-30 13:44:55,283 - Agent2 (Agent Alberto_10_Avg_D1_L1): 101 moves, avg 0.000s/move, total 0.04s
+2025-08-30 13:44:55,299 - GAME START: Agent depth3_level1_run1(LEFT) vs Agent Alberto_Best_Agent_D1_L1(RIGHT)
+2025-08-30 13:45:00,595 - GAME RESULT: draw wins
+2025-08-30 13:45:00,595 - Duration: 5.30s, Moves: 200
+2025-08-30 13:45:00,595 - Agent1 (Agent depth3_level1_run1): 133 moves, avg 0.039s/move, total 5.23s
+2025-08-30 13:45:00,595 - Agent2 (Agent Alberto_Best_Agent_D1_L1): 67 moves, avg 0.001s/move, total 0.05s
+2025-08-30 13:45:00,595 - GAME START: Agent depth3_level1_run1(RIGHT) vs Agent Alberto_Best_Agent_D1_L1(LEFT)
+2025-08-30 13:45:00,870 - GAME RESULT: agent1 wins
+2025-08-30 13:45:00,870 - Duration: 0.27s, Moves: 9
+2025-08-30 13:45:00,870 - Agent1 (Agent depth3_level1_run1): 6 moves, avg 0.046s/move, total 0.27s
+2025-08-30 13:45:00,870 - Agent2 (Agent Alberto_Best_Agent_D1_L1): 3 moves, avg 0.000s/move, total 0.00s
+2025-08-30 13:45:00,870 - GAME START: Agent depth3_level1_run1(LEFT) vs Agent Alberto_10_Avg_D1_L1(RIGHT)
+2025-08-30 13:45:06,208 - GAME RESULT: draw wins
+2025-08-30 13:45:06,208 - Duration: 5.34s, Moves: 200
+2025-08-30 13:45:06,208 - Agent1 (Agent depth3_level1_run1): 133 moves, avg 0.040s/move, total 5.29s
+2025-08-30 13:45:06,208 - Agent2 (Agent Alberto_10_Avg_D1_L1): 67 moves, avg 0.001s/move, total 0.04s
+2025-08-30 13:45:06,208 - GAME START: Agent depth3_level1_run1(RIGHT) vs Agent Alberto_10_Avg_D1_L1(LEFT)
+2025-08-30 13:45:06,472 - GAME RESULT: agent1 wins
+2025-08-30 13:45:06,472 - Duration: 0.26s, Moves: 10
+2025-08-30 13:45:06,472 - Agent1 (Agent depth3_level1_run1): 6 moves, avg 0.041s/move, total 0.25s
+2025-08-30 13:45:06,472 - Agent2 (Agent Alberto_10_Avg_D1_L1): 4 moves, avg 0.004s/move, total 0.01s
+2025-08-30 13:45:06,487 - GAME START: Agent Alberto_Best_Agent_D1_L1(LEFT) vs Agent Alberto_10_Avg_D1_L1(RIGHT)
+2025-08-30 13:45:06,601 - GAME RESULT: draw wins
+2025-08-30 13:45:06,601 - Duration: 0.11s, Moves: 200
+2025-08-30 13:45:06,601 - Agent1 (Agent Alberto_Best_Agent_D1_L1): 100 moves, avg 0.000s/move, total 0.03s
+2025-08-30 13:45:06,601 - Agent2 (Agent Alberto_10_Avg_D1_L1): 100 moves, avg 0.001s/move, total 0.08s
+2025-08-30 13:45:06,601 - GAME START: Agent Alberto_Best_Agent_D1_L1(RIGHT) vs Agent Alberto_10_Avg_D1_L1(LEFT)
+2025-08-30 13:45:06,716 - GAME RESULT: draw wins
+2025-08-30 13:45:06,716 - Duration: 0.11s, Moves: 200
+2025-08-30 13:45:06,716 - Agent1 (Agent Alberto_Best_Agent_D1_L1): 99 moves, avg 0.001s/move, total 0.06s
+2025-08-30 13:45:06,716 - Agent2 (Agent Alberto_10_Avg_D1_L1): 101 moves, avg 0.001s/move, total 0.05s

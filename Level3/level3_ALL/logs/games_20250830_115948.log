@@ -1,0 +1,30 @@
+2025-08-30 11:59:48,219 - GAME START: Agent depth1_level3_run2(LEFT) vs Agent depth2_level3_run1(RIGHT)
+2025-08-30 12:00:03,699 - GAME RESULT: draw wins
+2025-08-30 12:00:03,699 - Duration: 15.48s, Moves: 100
+2025-08-30 12:00:03,699 - Agent1 (Agent depth1_level3_run2): 50 moves, avg 0.011s/move, total 0.54s
+2025-08-30 12:00:03,699 - Agent2 (Agent depth2_level3_run1): 50 moves, avg 0.298s/move, total 14.89s
+2025-08-30 12:00:03,699 - GAME START: Agent depth1_level3_run2(RIGHT) vs Agent depth2_level3_run1(LEFT)
+2025-08-30 12:00:09,906 - GAME RESULT: draw wins
+2025-08-30 12:00:09,906 - Duration: 6.21s, Moves: 100
+2025-08-30 12:00:09,907 - Agent1 (Agent depth1_level3_run2): 46 moves, avg 0.007s/move, total 0.34s
+2025-08-30 12:00:09,907 - Agent2 (Agent depth2_level3_run1): 54 moves, avg 0.107s/move, total 5.80s
+2025-08-30 12:00:09,909 - GAME START: Agent depth1_level3_run2(LEFT) vs Agent depth3_level3_run1(RIGHT)
+2025-08-30 12:03:59,199 - GAME RESULT: draw wins
+2025-08-30 12:03:59,201 - Duration: 229.29s, Moves: 100
+2025-08-30 12:03:59,201 - Agent1 (Agent depth1_level3_run2): 50 moves, avg 0.011s/move, total 0.53s
+2025-08-30 12:03:59,201 - Agent2 (Agent depth3_level3_run1): 50 moves, avg 4.574s/move, total 228.69s
+2025-08-30 12:03:59,201 - GAME START: Agent depth1_level3_run2(RIGHT) vs Agent depth3_level3_run1(LEFT)
+2025-08-30 12:05:43,707 - GAME RESULT: draw wins
+2025-08-30 12:05:43,707 - Duration: 104.51s, Moves: 100
+2025-08-30 12:05:43,707 - Agent1 (Agent depth1_level3_run2): 32 moves, avg 0.008s/move, total 0.25s
+2025-08-30 12:05:43,707 - Agent2 (Agent depth3_level3_run1): 68 moves, avg 1.533s/move, total 104.23s
+2025-08-30 12:05:43,707 - GAME START: Agent depth2_level3_run1(LEFT) vs Agent depth3_level3_run1(RIGHT)
+2025-08-30 12:07:30,865 - GAME RESULT: draw wins
+2025-08-30 12:07:30,865 - Duration: 107.16s, Moves: 100
+2025-08-30 12:07:30,865 - Agent1 (Agent depth2_level3_run1): 54 moves, avg 0.065s/move, total 3.50s
+2025-08-30 12:07:30,865 - Agent2 (Agent depth3_level3_run1): 46 moves, avg 2.253s/move, total 103.63s
+2025-08-30 12:07:30,881 - GAME START: Agent depth2_level3_run1(RIGHT) vs Agent depth3_level3_run1(LEFT)
+2025-08-30 12:11:06,484 - GAME RESULT: agent2 wins
+2025-08-30 12:11:06,484 - Duration: 215.60s, Moves: 43
+2025-08-30 12:11:06,484 - Agent1 (Agent depth2_level3_run1): 20 moves, avg 0.246s/move, total 4.92s
+2025-08-30 12:11:06,484 - Agent2 (Agent depth3_level3_run1): 23 moves, avg 9.160s/move, total 210.68s

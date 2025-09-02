@@ -1,0 +1,3369 @@
+{
+  "tournament_config": {
+    "games_per_match": 2,
+    "max_moves_per_game": 100,
+    "time_limit_per_move": 400.0,
+    "output_directory": "MOD3_AGENTS"
+  },
+  "agents": {
+    "Agent depth1_level3_run2": {
+      "name": "Agent depth1_level3_run2",
+      "weights_file": "../Level3/Depth1/depth1_level3_run1/optimized_weights.json",
+      "minimax_depth": 1,
+      "description": "L3_D1_F0.39_T40",
+      "level": 3,
+      "weights": {
+        "avance_balon": 14.478344954013483,
+        "dist_balon_jug_1": 20.480861027793814,
+        "dist_balon_jug_2": -13.601200441398976,
+        "dist_balon_jug_3": -34.116710710014225,
+        "dist_balon_op_1": -25.797269774163986,
+        "dist_balon_op_2": -32.57752989958876,
+        "dist_balon_op_3": 35.33976246028347,
+        "avance_jug_1": 16.3585841083745,
+        "avance_jug_2": -50.0,
+        "avance_jug_3": -28.282862127175864,
+        "avance_op_1": -0.5857237248172282,
+        "avance_op_2": 37.85700771186164,
+        "avance_op_3": 31.039372501239978,
+        "muy_cerca_borde_jug": -14.967552258987922,
+        "muy_cerca_borde_op": 28.894652419360625,
+        "arq_en_area_jug": 28.294730169973853,
+        "arq_en_area_op": -2.641718927570678,
+        "mas_cerca_balon": -14.184931987836531,
+        "casilla_neutra": -11.733050325293231,
+        "casilla_especial": -20.381727749899852,
+        "muy_cerca_jug": -46.84689977997092,
+        "muy_lejos_jug": -29.31843553156981,
+        "muy_cerca_op": 39.98675211037863,
+        "muy_lejos_op": 34.47515961964952
+      },
+      "generation": null,
+      "fitness_score": 0.3875,
+      "training_games": 40,
+      "weight_source": "unknown"
+    },
+    "Agent depth2_level3_run1": {
+      "name": "Agent depth2_level3_run1",
+      "weights_file": "../Level3/Depth2/depth2_level3_run1/optimized_weights.json",
+      "minimax_depth": 2,
+      "description": "L3_D2_F0.49_T40",
+      "level": 3,
+      "weights": {
+        "avance_balon": -5.055149865977364,
+        "dist_balon_jug_1": -7.070009110751138,
+        "dist_balon_jug_2": 31.217884096884337,
+        "dist_balon_jug_3": -14.423753304274381,
+        "dist_balon_op_1": 0.2952370398461053,
+        "dist_balon_op_2": 44.793865078612654,
+        "dist_balon_op_3": -1.3412610373043863,
+        "avance_jug_1": -29.961847769312648,
+        "avance_jug_2": 18.936113427664882,
+        "avance_jug_3": 35.28111828198527,
+        "avance_op_1": -27.48070215830461,
+        "avance_op_2": -42.210465594461866,
+        "avance_op_3": -50.0,
+        "muy_cerca_borde_jug": 50.0,
+        "muy_cerca_borde_op": 18.170928580465795,
+        "arq_en_area_jug": 6.516063011979165,
+        "arq_en_area_op": 3.1117955889500575,
+        "mas_cerca_balon": 23.884889739457506,
+        "casilla_neutra": -32.209178417526054,
+        "casilla_especial": -14.64106510793213,
+        "muy_cerca_jug": 40.4250233785866,
+        "muy_lejos_jug": 50.0,
+        "muy_cerca_op": 22.321287806036487,
+        "muy_lejos_op": -50.0
+      },
+      "generation": null,
+      "fitness_score": 0.4925,
+      "training_games": 40,
+      "weight_source": "unknown"
+    },
+    "Agent depth3_level3_run1": {
+      "name": "Agent depth3_level3_run1",
+      "weights_file": "../Level3/Depth3/depth3_level3_run1/optimized_weights.json",
+      "minimax_depth": 3,
+      "description": "L3_D3_F0.44_T8",
+      "level": 3,
+      "weights": {
+        "avance_balon": -38.62574311722523,
+        "dist_balon_jug_1": 34.54944685223805,
+        "dist_balon_jug_2": 8.895938957090664,
+        "dist_balon_jug_3": -21.81636562197977,
+        "dist_balon_op_1": -14.186017003319627,
+        "dist_balon_op_2": 10.923469125054236,
+        "dist_balon_op_3": -31.077262051497023,
+        "avance_jug_1": -17.83796837205559,
+        "avance_jug_2": -27.756782328155282,
+        "avance_jug_3": 22.89747359386635,
+        "avance_op_1": 24.0329743965504,
+        "avance_op_2": 8.511668799346062,
+        "avance_op_3": 27.086169576533635,
+        "muy_cerca_borde_jug": 20.61632049555911,
+        "muy_cerca_borde_op": -44.468169112790136,
+        "arq_en_area_jug": -8.429827971374635,
+        "arq_en_area_op": -6.936419957947649,
+        "mas_cerca_balon": -12.863160845723662,
+        "casilla_neutra": -26.16063205810536,
+        "casilla_especial": 49.86613666690319,
+        "muy_cerca_jug": 38.55951684326047,
+        "muy_lejos_jug": 48.32726099134922,
+        "muy_cerca_op": 26.49294326067063,
+        "muy_lejos_op": -2.2877026150489783
+      },
+      "generation": null,
+      "fitness_score": 0.4375,
+      "training_games": 8,
+      "weight_source": "unknown"
+    }
+  },
+  "raw_matches": [
+    {
+      "agent1_name": "Agent depth1_level3_run2",
+      "agent2_name": "Agent depth2_level3_run1",
+      "games": [
+        {
+          "agent1_name": "Agent depth1_level3_run2",
+          "agent2_name": "Agent depth2_level3_run1",
+          "winner": "draw",
+          "score": 0.0,
+          "agent1_color": "LEFT",
+          "agent2_color": "RIGHT",
+          "total_moves": 100,
+          "agent1_moves": 50,
+          "agent2_moves": 50,
+          "game_duration": 15.48007869720459,
+          "agent1_total_time": 0.5424191951751709,
+          "agent2_total_time": 14.893702268600464,
+          "agent1_avg_time": 0.010848383903503418,
+          "agent2_avg_time": 0.2978740453720093,
+          "agent1_max_time": 0.025670766830444336,
+          "agent2_max_time": 0.3806123733520508,
+          "termination_reason": "max_moves",
+          "final_ball_position": [
+            0,
+            0
+          ],
+          "move_times": [
+            [
+              "Agent depth1_level3_run2",
+              0.012777090072631836
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3549158573150635
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01585674285888672
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3806123733520508
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.014105796813964844
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.27226901054382324
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.012013435363769531
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3555412292480469
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009752511978149414
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2554666996002197
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.012111186981201172
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.31060242652893066
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.007748126983642578
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.23278284072875977
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.34770894050598145
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.021819114685058594
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.26218128204345703
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01051187515258789
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.32975172996520996
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.018230438232421875
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.24947309494018555
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015796422958374023
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3347797393798828
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015956878662109375
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.25025081634521484
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015923023223876953
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.33711910247802734
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.27047038078308105
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3589358329772949
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.013344764709472656
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.260669469833374
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3554220199584961
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.016007661819458008
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2537541389465332
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0020024776458740234
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.33962583541870117
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015898704528808594
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.26691651344299316
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3430161476135254
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01341867446899414
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2721576690673828
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009752273559570312
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.29141902923583984
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015997648239135742
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2577986717224121
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.008187294006347656
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.33405041694641113
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015730857849121094
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2707231044769287
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.025670766830444336
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.32233166694641113
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2706871032714844
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015898704528808594
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3454258441925049
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.012018442153930664
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.26127195358276367
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009926319122314453
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.33199524879455566
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2659876346588135
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3503386974334717
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015848636627197266
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.24765300750732422
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.021869182586669922
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3448026180267334
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.004497051239013672
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.266756534576416
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.010006427764892578
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3382134437561035
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.016042232513427734
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2549257278442383
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.016231536865234375
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3112807273864746
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015987157821655273
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.26035046577453613
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.011642694473266602
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3304123878479004
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2709653377532959
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3267059326171875
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009225845336914062
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2372143268585205
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015384197235107422
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2979724407196045
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.016037702560424805
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.22748923301696777
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.007487058639526367
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.30928945541381836
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015952587127685547
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2554769515991211
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009749650955200195
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.31774115562438965
+            ]
+          ],
+          "move_types": [
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move"
+          ]
+        },
+        {
+          "agent1_name": "Agent depth1_level3_run2",
+          "agent2_name": "Agent depth2_level3_run1",
+          "winner": "draw",
+          "score": 0.0,
+          "agent1_color": "RIGHT",
+          "agent2_color": "LEFT",
+          "total_moves": 100,
+          "agent1_moves": 46,
+          "agent2_moves": 54,
+          "game_duration": 6.206191062927246,
+          "agent1_total_time": 0.3437941074371338,
+          "agent2_total_time": 5.8016791343688965,
+          "agent1_avg_time": 0.007473784944285517,
+          "agent2_avg_time": 0.1074385024883129,
+          "agent1_max_time": 0.0216367244720459,
+          "agent2_max_time": 0.31424713134765625,
+          "termination_reason": "max_moves",
+          "final_ball_position": [
+            0,
+            0
+          ],
+          "move_times": [
+            [
+              "Agent depth2_level3_run1",
+              0.31424713134765625
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.06365466117858887
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.03193068504333496
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.05000638961791992
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0454099178314209
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.011493921279907227
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.27016735076904297
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.00975179672241211
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.19596457481384277
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0020020008087158203
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.12106800079345703
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.016902446746826172
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0698549747467041
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.004007101058959961
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.027417421340942383
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.02210092544555664
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009780168533325195
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.14375066757202148
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.11184072494506836
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.016019582748413086
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.15553641319274902
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.11968612670898438
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0060062408447265625
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.08312535285949707
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.11125946044921875
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015996932983398438
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.09729266166687012
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0040035247802734375
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.15299057960510254
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009832143783569336
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.09632182121276855
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.016068458557128906
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.1265275478363037
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015856504440307617
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0792086124420166
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.014881610870361328
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.1345820426940918
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0027420520782470703
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.08930015563964844
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.005747556686401367
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.12647247314453125
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.09587264060974121
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.010669469833374023
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.13001060485839844
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.004758358001708984
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0789947509765625
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.004003763198852539
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.12162256240844727
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.09396195411682129
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01587963104248047
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.12784647941589355
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01988506317138672
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.07978034019470215
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.12629246711730957
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01575160026550293
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.09551024436950684
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.005962848663330078
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.12662267684936523
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009974002838134766
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.09585285186767578
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.1578969955444336
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.006438493728637695
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.08151412010192871
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.15365147590637207
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.006017446517944336
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.07673287391662598
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015909671783447266
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.13999485969543457
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.09587335586547852
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.14328956604003906
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.09580540657043457
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.12549376487731934
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.005745887756347656
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0715186595916748
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.016152620315551758
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.1471400260925293
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.08916807174682617
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.14586210250854492
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.006010293960571289
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0686793327331543
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0216367244720459
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.11901235580444336
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01616954803466797
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.07395482063293457
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.005743741989135742
+            ]
+          ],
+          "move_types": [
+            "move",
+            "kick",
+            "kick",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move"
+          ]
+        }
+      ],
+      "total_games": 2,
+      "match_duration": 21.69301724433899,
+      "agent1_wins": 0,
+      "agent2_wins": 0,
+      "draws": 2,
+      "agent1_score": 1.0,
+      "agent2_score": 1.0,
+      "agent1_wins_as_left": 0,
+      "agent1_wins_as_right": 0,
+      "agent2_wins_as_left": 0,
+      "agent2_wins_as_right": 0,
+      "draws_agent1_left": 1,
+      "draws_agent1_right": 1,
+      "agent1_win_rate": 0.0,
+      "agent2_win_rate": 0.0,
+      "agent1_left_win_rate": 0.0,
+      "agent1_right_win_rate": 0.0,
+      "agent2_left_win_rate": 0.0,
+      "agent2_right_win_rate": 0.0,
+      "avg_game_duration": 10.843134880065918,
+      "agent1_avg_move_time": 0.009161084423894468,
+      "agent2_avg_move_time": 0.20265627393016108,
+      "agent1_total_thinking_time": 0.8862133026123047,
+      "agent2_total_thinking_time": 20.69538140296936
+    },
+    {
+      "agent1_name": "Agent depth1_level3_run2",
+      "agent2_name": "Agent depth3_level3_run1",
+      "games": [
+        {
+          "agent1_name": "Agent depth1_level3_run2",
+          "agent2_name": "Agent depth3_level3_run1",
+          "winner": "draw",
+          "score": 0.0,
+          "agent1_color": "LEFT",
+          "agent2_color": "RIGHT",
+          "total_moves": 100,
+          "agent1_moves": 50,
+          "agent2_moves": 50,
+          "game_duration": 229.28938221931458,
+          "agent1_total_time": 0.5295195579528809,
+          "agent2_total_time": 228.69114017486572,
+          "agent1_avg_time": 0.010590391159057617,
+          "agent2_avg_time": 4.573822803497315,
+          "agent1_max_time": 0.025881290435791016,
+          "agent2_max_time": 17.218390941619873,
+          "termination_reason": "max_moves",
+          "final_ball_position": [
+            0,
+            0
+          ],
+          "move_times": [
+            [
+              "Agent depth1_level3_run2",
+              0.010183572769165039
+            ],
+            [
+              "Agent depth3_level3_run1",
+              17.218390941619873
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.016988039016723633
+            ],
+            [
+              "Agent depth3_level3_run1",
+              15.2201988697052
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.025881290435791016
+            ],
+            [
+              "Agent depth3_level3_run1",
+              8.925796747207642
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              5.312458515167236
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015773296356201172
+            ],
+            [
+              "Agent depth3_level3_run1",
+              5.152021646499634
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0156857967376709
+            ],
+            [
+              "Agent depth3_level3_run1",
+              6.711862325668335
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015774965286254883
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.7468292713165283
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015826702117919922
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.987669229507446
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.0981674194335938
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.637441396713257
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.019911766052246094
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.444345235824585
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015951156616210938
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.625704765319824
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.008009910583496094
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.471569061279297
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01608419418334961
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.575786590576172
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015933990478515625
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.4496638774871826
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009491205215454102
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.2476983070373535
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.008377552032470703
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.4741227626800537
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009957313537597656
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.723819017410278
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015790224075317383
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.0834619998931885
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.013998746871948242
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.135126352310181
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009752273559570312
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.9570791721343994
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.007486820220947266
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.114483118057251
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.012051105499267578
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.072960615158081
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.007224559783935547
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.091214179992676
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.9607245922088623
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01589369773864746
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.266357421875
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.4091813564300537
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.516967535018921
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0161285400390625
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.380002975463867
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.006745576858520508
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.579203367233276
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.416712522506714
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015778303146362305
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.522655725479126
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015783071517944336
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.3895673751831055
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015779733657836914
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.615878105163574
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01568126678466797
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.4127869606018066
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015786409378051758
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.402108669281006
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.995607376098633
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.024117708206177
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015761613845825195
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.0308077335357666
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0020055770874023438
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.115087509155273
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.016154050827026367
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.0382540225982666
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009754657745361328
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.164475440979004
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.010492801666259766
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.0045855045318604
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015772342681884766
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.752644777297974
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.4065487384796143
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015929698944091797
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.535698413848877
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015993833541870117
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.449800968170166
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.016194581985473633
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.716878175735474
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.5622897148132324
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.007749319076538086
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.544326066970825
+            ]
+          ],
+          "move_types": [
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move"
+          ]
+        },
+        {
+          "agent1_name": "Agent depth1_level3_run2",
+          "agent2_name": "Agent depth3_level3_run1",
+          "winner": "draw",
+          "score": 0.0,
+          "agent1_color": "RIGHT",
+          "agent2_color": "LEFT",
+          "total_moves": 100,
+          "agent1_moves": 32,
+          "agent2_moves": 68,
+          "game_duration": 104.50595736503601,
+          "agent1_total_time": 0.24623894691467285,
+          "agent2_total_time": 104.23407983779907,
+          "agent1_avg_time": 0.007694967091083527,
+          "agent2_avg_time": 1.532854115261751,
+          "agent1_max_time": 0.024357318878173828,
+          "agent2_max_time": 15.095718622207642,
+          "termination_reason": "max_moves",
+          "final_ball_position": [
+            0,
+            0
+          ],
+          "move_times": [
+            [
+              "Agent depth3_level3_run1",
+              10.090303659439087
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.011756420135498047
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.004003763198852539
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0040051937103271484
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.004004240036010742
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              9.127894878387451
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.012015104293823242
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0037453174591064453
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.002002716064453125
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.004004716873168945
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.002002239227294922
+            ],
+            [
+              "Agent depth3_level3_run1",
+              15.095718622207642
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.752655029296875
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.3952665328979492
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.010013580322265625
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.9282848834991455
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.14844274520874023
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.182121992111206
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01001429557800293
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.1431567668914795
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.4677555561065674
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.3616302013397217
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.010410547256469727
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.2245218753814697
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.3766286373138428
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.6727700233459473
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.1045725345611572
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.3241734504699707
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.6644229888916016
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.00879979133605957
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.9417178630828857
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.9430031776428223
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.4375431537628174
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015688419342041016
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.316419839859009
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.4084010124206543
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.6764113903045654
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01572394371032715
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.0040886402130127
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.0028071403503418
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.5355901718139648
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.498112916946411
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.3640105724334717
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.7317707538604736
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.015712499618530273
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.0677285194396973
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.9371962547302246
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.4705028533935547
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.01584601402282715
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.3240842819213867
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.3605504035949707
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.7302465438842773
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.016158342361450195
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.066504955291748
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.977794885635376
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.45063018798828125
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.2713704109191895
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.22372770309448242
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.0274999141693115
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.1780507564544678
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.2155768871307373
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.7425861358642578
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.752120018005371
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.5740108489990234
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.9746501445770264
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.010024785995483398
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.9741992950439453
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.22292757034301758
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.2381894588470459
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.6292381286621094
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.2869274616241455
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.6977634429931641
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009492635726928711
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.2968335151672363
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.9346356391906738
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.47725510597229004
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.024357318878173828
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.8825862407684326
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.0383691787719727
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.7294661998748779
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0047986507415771484
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.344343662261963
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.3493525981903076
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.074556827545166
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.009752035140991211
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.6749229431152344
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.006006479263305664
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.4657831192016602
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.2773604393005371
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.1122581958770752
+            ],
+            [
+              "Agent depth1_level3_run2",
+              0.0158998966217041
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.0541367530822754
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.2079453468322754
+            ]
+          ],
+          "move_types": [
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "kick",
+            "kick",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "kick"
+          ]
+        }
+      ],
+      "total_games": 2,
+      "match_duration": 333.79734325408936,
+      "agent1_wins": 0,
+      "agent2_wins": 0,
+      "draws": 2,
+      "agent1_score": 1.0,
+      "agent2_score": 1.0,
+      "agent1_wins_as_left": 0,
+      "agent1_wins_as_right": 0,
+      "agent2_wins_as_left": 0,
+      "agent2_wins_as_right": 0,
+      "draws_agent1_left": 1,
+      "draws_agent1_right": 1,
+      "agent1_win_rate": 0.0,
+      "agent2_win_rate": 0.0,
+      "agent1_left_win_rate": 0.0,
+      "agent1_right_win_rate": 0.0,
+      "agent2_left_win_rate": 0.0,
+      "agent2_right_win_rate": 0.0,
+      "avg_game_duration": 166.8976697921753,
+      "agent1_avg_move_time": 0.009142679125070573,
+      "agent2_avg_move_time": 3.0533384593795327,
+      "agent1_total_thinking_time": 0.7757585048675537,
+      "agent2_total_thinking_time": 332.9252200126648
+    },
+    {
+      "agent1_name": "Agent depth2_level3_run1",
+      "agent2_name": "Agent depth3_level3_run1",
+      "games": [
+        {
+          "agent1_name": "Agent depth2_level3_run1",
+          "agent2_name": "Agent depth3_level3_run1",
+          "winner": "draw",
+          "score": 0.0,
+          "agent1_color": "LEFT",
+          "agent2_color": "RIGHT",
+          "total_moves": 100,
+          "agent1_moves": 54,
+          "agent2_moves": 46,
+          "game_duration": 107.15841960906982,
+          "agent1_total_time": 3.4979920387268066,
+          "agent2_total_time": 103.63041353225708,
+          "agent1_avg_time": 0.06477763034679272,
+          "agent2_avg_time": 2.2528350767881973,
+          "agent1_max_time": 0.30289363861083984,
+          "agent2_max_time": 21.72766375541687,
+          "termination_reason": "max_moves",
+          "final_ball_position": [
+            0,
+            0
+          ],
+          "move_times": [
+            [
+              "Agent depth2_level3_run1",
+              0.30289363861083984
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.05916142463684082
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.026685714721679688
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0356898307800293
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.06352043151855469
+            ],
+            [
+              "Agent depth3_level3_run1",
+              21.72766375541687
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2381269931793213
+            ],
+            [
+              "Agent depth3_level3_run1",
+              16.049543142318726
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.11383748054504395
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.360910654067993
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.10567140579223633
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.2574903964996338
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0946202278137207
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.1435482501983643
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.046192169189453125
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.8302907943725586
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.07982110977172852
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.031755924224853516
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0
+            ],
+            [
+              "Agent depth3_level3_run1",
+              3.0303730964660645
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.09488964080810547
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.361807107925415
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.09594011306762695
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.0692648887634277
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0480189323425293
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.2823381423950195
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.06392383575439453
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.2100908756256104
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.03222537040710449
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.2422027587890625
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.043736934661865234
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.219771385192871
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.03764224052429199
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.2542121410369873
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.06304287910461426
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.2317895889282227
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.04731345176696777
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.217463493347168
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.038184165954589844
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.10296368598938
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.031768798828125
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.055504083633423
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.05138850212097168
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.3876521587371826
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.04746842384338379
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.5576906204223633
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.047533273696899414
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.4265613555908203
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.04797244071960449
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.5763161182403564
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.06310892105102539
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.4032392501831055
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.04739689826965332
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.564631938934326
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.04724287986755371
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.418893337249756
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.015817642211914062
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.8254847526550293
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.06415128707885742
+            ],
+            [
+              "Agent depth3_level3_run1",
+              2.7215347290039062
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.10870146751403809
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.3589022159576416
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0924994945526123
+            ],
+            [
+              "Agent depth3_level3_run1",
+              1.3730037212371826
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.07935786247253418
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.8444733619689941
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.05549812316894531
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.24100422859191895
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.07774162292480469
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.3352832794189453
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.07225966453552246
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.2810099124908447
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.06992554664611816
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.3488423824310303
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.06291341781616211
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.287442684173584
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0746769905090332
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.3534884452819824
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.06146836280822754
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.28392696380615234
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.061316728591918945
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.3189065456390381
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.04786801338195801
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.42319583892822266
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.05172395706176758
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.372755765914917
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.04530024528503418
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.2744910717010498
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.05365610122680664
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.34955406188964844
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.08108234405517578
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.3788108825683594
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.06352591514587402
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.4431297779083252
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0661771297454834
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.39385271072387695
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.045556068420410156
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.43910717964172363
+            ]
+          ],
+          "move_types": [
+            "move",
+            "kick",
+            "kick",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "kick",
+            "kick",
+            "kick",
+            "kick",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move"
+          ]
+        },
+        {
+          "agent1_name": "Agent depth2_level3_run1",
+          "agent2_name": "Agent depth3_level3_run1",
+          "winner": "agent2",
+          "score": -1.0,
+          "agent1_color": "RIGHT",
+          "agent2_color": "LEFT",
+          "total_moves": 43,
+          "agent1_moves": 20,
+          "agent2_moves": 23,
+          "game_duration": 215.60348534584045,
+          "agent1_total_time": 4.9171247482299805,
+          "agent2_total_time": 210.6833860874176,
+          "agent1_avg_time": 0.24585623741149903,
+          "agent2_avg_time": 9.16014722119207,
+          "agent1_max_time": 0.39734435081481934,
+          "agent2_max_time": 15.659871339797974,
+          "termination_reason": "goal",
+          "final_ball_position": [
+            0,
+            0
+          ],
+          "move_times": [
+            [
+              "Agent depth3_level3_run1",
+              10.541732788085938
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3623008728027344
+            ],
+            [
+              "Agent depth3_level3_run1",
+              7.430208206176758
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.39734435081481934
+            ],
+            [
+              "Agent depth3_level3_run1",
+              7.172369480133057
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.37170863151550293
+            ],
+            [
+              "Agent depth3_level3_run1",
+              5.059525489807129
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.19928359985351562
+            ],
+            [
+              "Agent depth3_level3_run1",
+              6.113704204559326
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.48424601554870605
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.12829041481018066
+            ],
+            [
+              "Agent depth3_level3_run1",
+              15.659871339797974
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.06637740135192871
+            ],
+            [
+              "Agent depth3_level3_run1",
+              14.86465072631836
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.09496068954467773
+            ],
+            [
+              "Agent depth3_level3_run1",
+              7.776587963104248
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.09464645385742188
+            ],
+            [
+              "Agent depth3_level3_run1",
+              8.359290599822998
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.18917560577392578
+            ],
+            [
+              "Agent depth3_level3_run1",
+              5.127911329269409
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.0636594295501709
+            ],
+            [
+              "Agent depth3_level3_run1",
+              5.831413984298706
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2358379364013672
+            ],
+            [
+              "Agent depth3_level3_run1",
+              12.903829574584961
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.30016469955444336
+            ],
+            [
+              "Agent depth3_level3_run1",
+              13.430288314819336
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.2712876796722412
+            ],
+            [
+              "Agent depth3_level3_run1",
+              12.677833318710327
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3132612705230713
+            ],
+            [
+              "Agent depth3_level3_run1",
+              13.328528642654419
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.257918119430542
+            ],
+            [
+              "Agent depth3_level3_run1",
+              12.599547147750854
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.28018903732299805
+            ],
+            [
+              "Agent depth3_level3_run1",
+              13.321964263916016
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.26769065856933594
+            ],
+            [
+              "Agent depth3_level3_run1",
+              12.563131093978882
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.30128049850463867
+            ],
+            [
+              "Agent depth3_level3_run1",
+              13.304047346115112
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.39513325691223145
+            ],
+            [
+              "Agent depth3_level3_run1",
+              6.813030481338501
+            ],
+            [
+              "Agent depth2_level3_run1",
+              0.3266141414642334
+            ],
+            [
+              "Agent depth3_level3_run1",
+              4.7547736167907715
+            ],
+            [
+              "Agent depth3_level3_run1",
+              0.5649001598358154
+            ]
+          ],
+          "move_types": [
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "kick",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "kick"
+          ]
+        }
+      ],
+      "total_games": 2,
+      "match_duration": 322.77774000167847,
+      "agent1_wins": 0,
+      "agent2_wins": 1,
+      "draws": 1,
+      "agent1_score": 0.5,
+      "agent2_score": 1.5,
+      "agent1_wins_as_left": 0,
+      "agent1_wins_as_right": 0,
+      "agent2_wins_as_left": 1,
+      "agent2_wins_as_right": 0,
+      "draws_agent1_left": 1,
+      "draws_agent1_right": 0,
+      "agent1_win_rate": 0.0,
+      "agent2_win_rate": 0.5,
+      "agent1_left_win_rate": 0.0,
+      "agent1_right_win_rate": 0.0,
+      "agent2_left_win_rate": 1.0,
+      "agent2_right_win_rate": 0.0,
+      "avg_game_duration": 161.38095247745514,
+      "agent1_avg_move_time": 0.15531693387914589,
+      "agent2_avg_move_time": 5.706491148990134,
+      "agent1_total_thinking_time": 8.415116786956787,
+      "agent2_total_thinking_time": 314.3137996196747
+    }
+  ],
+  "analysis": {
+    "tournament_info": {
+      "timestamp": "2025-08-30T12:11:06.496063",
+      "total_matches": 3,
+      "total_games": 6,
+      "games_per_match": 2,
+      "total_duration_seconds": 678.287038564682,
+      "total_duration_minutes": 11.304783976078033,
+      "avg_match_duration": 226.08936683336893,
+      "avg_game_duration": 113.04058571656545,
+      "max_moves_per_game": 100,
+      "time_limit_per_move": 400.0
+    },
+    "agent_profiles": {
+      "Agent depth1_level3_run2": {
+        "name": "Agent depth1_level3_run2",
+        "level": 3,
+        "minimax_depth": 1,
+        "weight_source": "unknown",
+        "weights_file": "../Level3/Depth1/depth1_level3_run1/optimized_weights.json",
+        "description": "L3_D1_F0.39_T40",
+        "fitness_score": 0.3875,
+        "generation": null,
+        "training_games": 40,
+        "total_features": 24,
+        "key_weights": {
+          "avance_balon": 14.478344954013483,
+          "dist_balon_jug_1": 20.480861027793814,
+          "dist_balon_jug_2": -13.601200441398976,
+          "dist_balon_jug_3": -34.116710710014225,
+          "dist_balon_op_1": -25.797269774163986,
+          "dist_balon_op_2": -32.57752989958876,
+          "dist_balon_op_3": 35.33976246028347,
+          "avance_jug_1": 16.3585841083745,
+          "avance_jug_2": -50.0,
+          "avance_jug_3": -28.282862127175864
+        }
+      },
+      "Agent depth2_level3_run1": {
+        "name": "Agent depth2_level3_run1",
+        "level": 3,
+        "minimax_depth": 2,
+        "weight_source": "unknown",
+        "weights_file": "../Level3/Depth2/depth2_level3_run1/optimized_weights.json",
+        "description": "L3_D2_F0.49_T40",
+        "fitness_score": 0.4925,
+        "generation": null,
+        "training_games": 40,
+        "total_features": 24,
+        "key_weights": {
+          "avance_balon": -5.055149865977364,
+          "dist_balon_jug_1": -7.070009110751138,
+          "dist_balon_jug_2": 31.217884096884337,
+          "dist_balon_jug_3": -14.423753304274381,
+          "dist_balon_op_1": 0.2952370398461053,
+          "dist_balon_op_2": 44.793865078612654,
+          "dist_balon_op_3": -1.3412610373043863,
+          "avance_jug_1": -29.961847769312648,
+          "avance_jug_2": 18.936113427664882,
+          "avance_jug_3": 35.28111828198527
+        }
+      },
+      "Agent depth3_level3_run1": {
+        "name": "Agent depth3_level3_run1",
+        "level": 3,
+        "minimax_depth": 3,
+        "weight_source": "unknown",
+        "weights_file": "../Level3/Depth3/depth3_level3_run1/optimized_weights.json",
+        "description": "L3_D3_F0.44_T8",
+        "fitness_score": 0.4375,
+        "generation": null,
+        "training_games": 8,
+        "total_features": 24,
+        "key_weights": {
+          "avance_balon": -38.62574311722523,
+          "dist_balon_jug_1": 34.54944685223805,
+          "dist_balon_jug_2": 8.895938957090664,
+          "dist_balon_jug_3": -21.81636562197977,
+          "dist_balon_op_1": -14.186017003319627,
+          "dist_balon_op_2": 10.923469125054236,
+          "dist_balon_op_3": -31.077262051497023,
+          "avance_jug_1": -17.83796837205559,
+          "avance_jug_2": -27.756782328155282,
+          "avance_jug_3": 22.89747359386635
+        }
+      }
+    },
+    "overall_performance": {
+      "Agent depth1_level3_run2": {
+        "total_games": 4,
+        "wins": 0,
+        "losses": 0,
+        "draws": 4,
+        "score": 2.0,
+        "win_rate": 0.0,
+        "loss_rate": 0.0,
+        "draw_rate": 1.0,
+        "score_rate": 0.5,
+        "games_as_left": 2,
+        "games_as_right": 2,
+        "wins_as_left": 0,
+        "wins_as_right": 0,
+        "losses_as_left": 0,
+        "losses_as_right": 0,
+        "draws_as_left": 2,
+        "draws_as_right": 2,
+        "left_win_rate": 0.0,
+        "right_win_rate": 0.0,
+        "color_advantage": 0.0,
+        "total_thinking_time": 1.6619718074798584,
+        "avg_thinking_time_per_game": 0.4154929518699646,
+        "avg_move_time": 0.00915188177448252,
+        "move_time_std": 0.0015721035342419311,
+        "min_move_time": 0.007473784944285517,
+        "max_move_time": 0.010848383903503418
+      },
+      "Agent depth2_level3_run1": {
+        "total_games": 4,
+        "wins": 0,
+        "losses": 1,
+        "draws": 3,
+        "score": 1.5,
+        "win_rate": 0.0,
+        "loss_rate": 0.25,
+        "draw_rate": 0.75,
+        "score_rate": 0.375,
+        "games_as_left": 2,
+        "games_as_right": 2,
+        "wins_as_left": 0,
+        "wins_as_right": 0,
+        "losses_as_left": 0,
+        "losses_as_right": 1,
+        "draws_as_left": 2,
+        "draws_as_right": 1,
+        "left_win_rate": 0.0,
+        "right_win_rate": 0.0,
+        "color_advantage": 0.0,
+        "total_thinking_time": 29.110498189926147,
+        "avg_thinking_time_per_game": 7.277624547481537,
+        "avg_move_time": 0.17898660390465349,
+        "move_time_std": 0.09587569045568445,
+        "min_move_time": 0.06477763034679272,
+        "max_move_time": 0.2978740453720093
+      },
+      "Agent depth3_level3_run1": {
+        "total_games": 4,
+        "wins": 1,
+        "losses": 0,
+        "draws": 3,
+        "score": 2.5,
+        "win_rate": 0.25,
+        "loss_rate": 0.0,
+        "draw_rate": 0.75,
+        "score_rate": 0.625,
+        "games_as_left": 2,
+        "games_as_right": 2,
+        "wins_as_left": 1,
+        "wins_as_right": 0,
+        "losses_as_left": 0,
+        "losses_as_right": 0,
+        "draws_as_left": 1,
+        "draws_as_right": 2,
+        "left_win_rate": 0.5,
+        "right_win_rate": 0.0,
+        "color_advantage": 0.5,
+        "total_thinking_time": 647.2390196323395,
+        "avg_thinking_time_per_game": 161.80975490808487,
+        "avg_move_time": 4.379914804184833,
+        "move_time_std": 2.979867656705459,
+        "min_move_time": 1.532854115261751,
+        "max_move_time": 9.16014722119207
+      }
+    },
+    "color_analysis": {
+      "left_advantage_summary": {},
+      "right_advantage_summary": {},
+      "color_balance_analysis": {
+        "total_left_games": 6,
+        "total_right_games": 6,
+        "total_left_wins": 1,
+        "total_right_wins": 0,
+        "left_win_rate": 0.16666666666666666,
+        "right_win_rate": 0.0,
+        "color_bias": 0.16666666666666666,
+        "color_bias_description": "LEFT favored"
+      }
+    },
+    "timing_analysis": {
+      "game_duration_stats": {
+        "mean": 113.04058571656545,
+        "std": 86.67180552598145,
+        "min": 6.206191062927246,
+        "max": 229.28938221931458,
+        "median": 105.83218848705292
+      },
+      "move_count_stats": {
+        "mean": 90.5,
+        "std": 21.242645786248,
+        "min": "43",
+        "max": "100",
+        "median": 100.0
+      }
+    },
+    "head_to_head": {
+      "Agent depth1_level3_run2_vs_Agent depth2_level3_run1": {
+        "agent1": "Agent depth1_level3_run2",
+        "agent2": "Agent depth2_level3_run1",
+        "agent1_score": 1.0,
+        "agent2_score": 1.0,
+        "agent1_wins": 0,
+        "agent2_wins": 0,
+        "draws": 2,
+        "agent1_wins_as_left": 0,
+        "agent1_wins_as_right": 0,
+        "agent2_wins_as_left": 0,
+        "agent2_wins_as_right": 0,
+        "agent1_win_rate": 0.0,
+        "agent2_win_rate": 0.0,
+        "agent1_left_win_rate": 0.0,
+        "agent1_right_win_rate": 0.0,
+        "agent2_left_win_rate": 0.0,
+        "agent2_right_win_rate": 0.0,
+        "agent1_avg_move_time": 0.009161084423894468,
+        "agent2_avg_move_time": 0.20265627393016108,
+        "speed_advantage": 0.19349518950626662,
+        "match_duration": 21.69301724433899,
+        "avg_game_duration": 10.843134880065918
+      },
+      "Agent depth1_level3_run2_vs_Agent depth3_level3_run1": {
+        "agent1": "Agent depth1_level3_run2",
+        "agent2": "Agent depth3_level3_run1",
+        "agent1_score": 1.0,
+        "agent2_score": 1.0,
+        "agent1_wins": 0,
+        "agent2_wins": 0,
+        "draws": 2,
+        "agent1_wins_as_left": 0,
+        "agent1_wins_as_right": 0,
+        "agent2_wins_as_left": 0,
+        "agent2_wins_as_right": 0,
+        "agent1_win_rate": 0.0,
+        "agent2_win_rate": 0.0,
+        "agent1_left_win_rate": 0.0,
+        "agent1_right_win_rate": 0.0,
+        "agent2_left_win_rate": 0.0,
+        "agent2_right_win_rate": 0.0,
+        "agent1_avg_move_time": 0.009142679125070573,
+        "agent2_avg_move_time": 3.0533384593795327,
+        "speed_advantage": 3.044195780254462,
+        "match_duration": 333.79734325408936,
+        "avg_game_duration": 166.8976697921753
+      },
+      "Agent depth2_level3_run1_vs_Agent depth3_level3_run1": {
+        "agent1": "Agent depth2_level3_run1",
+        "agent2": "Agent depth3_level3_run1",
+        "agent1_score": 0.5,
+        "agent2_score": 1.5,
+        "agent1_wins": 0,
+        "agent2_wins": 1,
+        "draws": 1,
+        "agent1_wins_as_left": 0,
+        "agent1_wins_as_right": 0,
+        "agent2_wins_as_left": 1,
+        "agent2_wins_as_right": 0,
+        "agent1_win_rate": 0.0,
+        "agent2_win_rate": 0.5,
+        "agent1_left_win_rate": 0.0,
+        "agent1_right_win_rate": 0.0,
+        "agent2_left_win_rate": 1.0,
+        "agent2_right_win_rate": 0.0,
+        "agent1_avg_move_time": 0.15531693387914589,
+        "agent2_avg_move_time": 5.706491148990134,
+        "speed_advantage": 5.551174215110988,
+        "match_duration": 322.77774000167847,
+        "avg_game_duration": 161.38095247745514
+      }
+    },
+    "statistical_summary": {}
+  }
+}

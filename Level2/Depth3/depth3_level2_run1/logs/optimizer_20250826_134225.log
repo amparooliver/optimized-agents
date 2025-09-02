@@ -1,0 +1,238 @@
+2025-08-26 13:42:25,009 - INFO - Initialized 17 features for level 2
+2025-08-26 13:42:25,009 - INFO - Starting weight optimization...
+2025-08-26 13:42:25,009 - INFO - Level: 2, Depth: 3
+2025-08-26 13:42:25,009 - INFO - Population: 50, Generations: 30
+2025-08-26 13:42:25,009 - INFO - Parallel: True, Workers: 10
+2025-08-26 13:42:25,009 - INFO - Initialized population of 50 individuals
+2025-08-26 13:42:25,009 - INFO - 
+--- Generation 1/30 ---
+2025-08-26 13:42:25,009 - INFO - Starting population evaluation...
+2025-08-26 13:42:25,009 - INFO - Using 10 parallel workers
+2025-08-26 14:47:38,850 - INFO - Best fitness: 0.6375
+2025-08-26 14:47:38,850 - INFO - Top 5 fitness scores: [0.6375, 0.5325, 0.49000000000000005, 0.4725, 0.4725]
+2025-08-26 14:47:38,850 - INFO - Generation 0: Best=0.6375, Mean=0.2063, Std=0.1420
+2025-08-26 14:47:38,850 - INFO - 
+--- Generation 2/30 ---
+2025-08-26 14:47:38,850 - INFO - Starting population evaluation...
+2025-08-26 14:47:38,850 - INFO - Using 10 parallel workers
+2025-08-26 15:30:43,538 - INFO - Best fitness: 0.6375
+2025-08-26 15:30:43,538 - INFO - Top 5 fitness scores: [0.585, 0.5425, 0.5, 0.4725, 0.4725]
+2025-08-26 15:30:43,538 - INFO - Generation 1: Best=0.5850, Mean=0.2682, Std=0.1347
+2025-08-26 15:30:43,538 - INFO - 
+--- Generation 3/30 ---
+2025-08-26 15:30:43,538 - INFO - Starting population evaluation...
+2025-08-26 15:30:43,538 - INFO - Using 10 parallel workers
+2025-08-26 16:15:23,874 - INFO - Best fitness: 0.7225
+2025-08-26 16:15:23,874 - INFO - Top 5 fitness scores: [0.7224999999999999, 0.67, 0.6224999999999999, 0.525, 0.4925]
+2025-08-26 16:15:23,874 - INFO - Generation 2: Best=0.7225, Mean=0.2647, Std=0.1567
+2025-08-26 16:15:23,874 - INFO - 
+--- Generation 4/30 ---
+2025-08-26 16:15:23,874 - INFO - Starting population evaluation...
+2025-08-26 16:15:23,874 - INFO - Using 10 parallel workers
+2025-08-26 16:58:37,338 - INFO - Best fitness: 0.7225
+2025-08-26 16:58:37,338 - INFO - Top 5 fitness scores: [0.65, 0.65, 0.6275000000000001, 0.5700000000000001, 0.5375]
+2025-08-26 16:58:37,338 - INFO - Generation 3: Best=0.6500, Mean=0.3122, Std=0.1550
+2025-08-26 16:58:37,338 - INFO - 
+--- Generation 5/30 ---
+2025-08-26 16:58:37,338 - INFO - Starting population evaluation...
+2025-08-26 16:58:37,338 - INFO - Using 10 parallel workers
+2025-08-26 17:41:32,150 - INFO - Best fitness: 0.7225
+2025-08-26 17:41:32,150 - INFO - Top 5 fitness scores: [0.595, 0.585, 0.5650000000000001, 0.5549999999999999, 0.5425]
+2025-08-26 17:41:32,150 - INFO - Generation 4: Best=0.5950, Mean=0.3583, Std=0.1407
+2025-08-26 17:41:32,150 - INFO - 
+--- Generation 6/30 ---
+2025-08-26 17:41:32,150 - INFO - Starting population evaluation...
+2025-08-26 17:41:32,150 - INFO - Using 10 parallel workers
+2025-08-26 18:28:04,289 - INFO - Best fitness: 0.7225
+2025-08-26 18:28:04,289 - INFO - Top 5 fitness scores: [0.6625, 0.6174999999999999, 0.6125, 0.5875, 0.5675]
+2025-08-26 18:28:04,289 - INFO - Generation 5: Best=0.6625, Mean=0.3797, Std=0.1527
+2025-08-26 18:28:04,289 - INFO - 
+--- Generation 7/30 ---
+2025-08-26 18:28:04,289 - INFO - Starting population evaluation...
+2025-08-26 18:28:04,289 - INFO - Using 10 parallel workers
+2025-08-26 19:13:45,914 - INFO - Best fitness: 0.7225
+2025-08-26 19:13:45,914 - INFO - Top 5 fitness scores: [0.6925, 0.64, 0.6375, 0.635, 0.62]
+2025-08-26 19:13:45,914 - INFO - Generation 6: Best=0.6925, Mean=0.3971, Std=0.1385
+2025-08-26 19:13:45,914 - INFO - 
+--- Generation 8/30 ---
+2025-08-26 19:13:45,914 - INFO - Starting population evaluation...
+2025-08-26 19:13:45,914 - INFO - Using 10 parallel workers
+2025-08-26 20:02:49,294 - INFO - Best fitness: 0.7225
+2025-08-26 20:02:49,294 - INFO - Top 5 fitness scores: [0.6675, 0.6224999999999999, 0.6125, 0.6125, 0.5974999999999999]
+2025-08-26 20:02:49,294 - INFO - Generation 7: Best=0.6675, Mean=0.3898, Std=0.1599
+2025-08-26 20:02:49,294 - INFO - 
+--- Generation 9/30 ---
+2025-08-26 20:02:49,294 - INFO - Starting population evaluation...
+2025-08-26 20:02:49,294 - INFO - Using 10 parallel workers
+2025-08-26 20:50:15,884 - INFO - Best fitness: 0.7225
+2025-08-26 20:50:15,884 - INFO - Top 5 fitness scores: [0.6799999999999999, 0.6224999999999999, 0.62, 0.6125, 0.6075]
+2025-08-26 20:50:15,884 - INFO - Generation 8: Best=0.6800, Mean=0.4130, Std=0.1436
+2025-08-26 20:50:15,884 - INFO - 
+--- Generation 10/30 ---
+2025-08-26 20:50:15,884 - INFO - Starting population evaluation...
+2025-08-26 20:50:15,884 - INFO - Using 10 parallel workers
+2025-08-26 21:38:17,701 - INFO - Best fitness: 0.7225
+2025-08-26 21:38:17,702 - INFO - Top 5 fitness scores: [0.6875, 0.665, 0.6625, 0.645, 0.6125]
+2025-08-26 21:38:17,702 - INFO - Generation 9: Best=0.6875, Mean=0.4138, Std=0.1503
+2025-08-26 21:38:17,703 - INFO - 
+--- Generation 11/30 ---
+2025-08-26 21:38:17,703 - INFO - Starting population evaluation...
+2025-08-26 21:38:17,703 - INFO - Using 10 parallel workers
+2025-08-26 22:29:36,771 - INFO - Best fitness: 0.7225
+2025-08-26 22:29:36,771 - INFO - Top 5 fitness scores: [0.6475, 0.6174999999999999, 0.615, 0.615, 0.5875]
+2025-08-26 22:29:36,771 - INFO - Generation 10: Best=0.6475, Mean=0.4147, Std=0.1181
+2025-08-26 22:29:36,771 - INFO - 
+--- Generation 12/30 ---
+2025-08-26 22:29:36,771 - INFO - Starting population evaluation...
+2025-08-26 22:29:36,771 - INFO - Using 10 parallel workers
+2025-08-26 23:19:48,122 - INFO - Best fitness: 0.7225
+2025-08-26 23:19:48,122 - INFO - Top 5 fitness scores: [0.67, 0.6599999999999999, 0.5700000000000001, 0.5575, 0.5325]
+2025-08-26 23:19:48,126 - INFO - Generation 11: Best=0.6700, Mean=0.4295, Std=0.0920
+2025-08-26 23:19:48,126 - INFO - 
+--- Generation 13/30 ---
+2025-08-26 23:19:48,126 - INFO - Starting population evaluation...
+2025-08-26 23:19:48,126 - INFO - Using 10 parallel workers
+2025-08-27 00:09:31,552 - INFO - Best fitness: 0.7225
+2025-08-27 00:09:31,552 - INFO - Top 5 fitness scores: [0.71, 0.6825, 0.64, 0.5974999999999999, 0.585]
+2025-08-27 00:09:31,552 - INFO - Generation 12: Best=0.7100, Mean=0.4384, Std=0.1242
+2025-08-27 00:09:31,552 - INFO - 
+--- Generation 14/30 ---
+2025-08-27 00:09:31,552 - INFO - Starting population evaluation...
+2025-08-27 00:09:31,552 - INFO - Using 10 parallel workers
+2025-08-27 01:00:32,401 - INFO - Best fitness: 0.8000
+2025-08-27 01:00:32,401 - INFO - Top 5 fitness scores: [0.8, 0.6875, 0.6849999999999999, 0.5925, 0.5825]
+2025-08-27 01:00:32,401 - INFO - Generation 13: Best=0.8000, Mean=0.4092, Std=0.1281
+2025-08-27 01:00:32,401 - INFO - 
+--- Generation 15/30 ---
+2025-08-27 01:00:32,401 - INFO - Starting population evaluation...
+2025-08-27 01:00:32,401 - INFO - Using 10 parallel workers
+2025-08-27 01:50:48,979 - INFO - Best fitness: 0.8000
+2025-08-27 01:50:48,980 - INFO - Top 5 fitness scores: [0.675, 0.5900000000000001, 0.5875, 0.58, 0.5650000000000001]
+2025-08-27 01:50:48,980 - INFO - Generation 14: Best=0.6750, Mean=0.4171, Std=0.1115
+2025-08-27 01:50:48,981 - INFO - 
+--- Generation 16/30 ---
+2025-08-27 01:50:48,981 - INFO - Starting population evaluation...
+2025-08-27 01:50:48,982 - INFO - Using 10 parallel workers
+2025-08-27 02:39:13,086 - INFO - Best fitness: 0.8000
+2025-08-27 02:39:13,086 - INFO - Top 5 fitness scores: [0.6875, 0.6325000000000001, 0.6075, 0.6, 0.6]
+2025-08-27 02:39:13,086 - INFO - Generation 15: Best=0.6875, Mean=0.4120, Std=0.1219
+2025-08-27 02:39:13,088 - INFO - 
+--- Generation 17/30 ---
+2025-08-27 02:39:13,088 - INFO - Starting population evaluation...
+2025-08-27 02:39:13,088 - INFO - Using 10 parallel workers
+2025-08-27 03:29:01,783 - INFO - Best fitness: 0.8000
+2025-08-27 03:29:01,783 - INFO - Top 5 fitness scores: [0.6425, 0.595, 0.5650000000000001, 0.5375, 0.525]
+2025-08-27 03:29:01,783 - INFO - Generation 16: Best=0.6425, Mean=0.4124, Std=0.0886
+2025-08-27 03:29:01,783 - INFO - 
+--- Generation 18/30 ---
+2025-08-27 03:29:01,783 - INFO - Starting population evaluation...
+2025-08-27 03:29:01,783 - INFO - Using 10 parallel workers
+2025-08-27 04:14:46,023 - INFO - Best fitness: 0.8000
+2025-08-27 04:14:46,026 - INFO - Top 5 fitness scores: [0.72, 0.645, 0.6025, 0.5725, 0.5700000000000001]
+2025-08-27 04:14:46,027 - INFO - Generation 17: Best=0.7200, Mean=0.4014, Std=0.1365
+2025-08-27 04:14:46,028 - INFO - 
+--- Generation 19/30 ---
+2025-08-27 04:14:46,028 - INFO - Starting population evaluation...
+2025-08-27 04:14:46,029 - INFO - Using 10 parallel workers
+2025-08-27 05:00:20,924 - INFO - Best fitness: 0.8000
+2025-08-27 05:00:20,924 - INFO - Top 5 fitness scores: [0.64, 0.6, 0.5925, 0.5275000000000001, 0.525]
+2025-08-27 05:00:20,924 - INFO - Generation 18: Best=0.6400, Mean=0.4027, Std=0.1001
+2025-08-27 05:00:20,924 - INFO - 
+--- Generation 20/30 ---
+2025-08-27 05:00:20,924 - INFO - Starting population evaluation...
+2025-08-27 05:00:20,924 - INFO - Using 10 parallel workers
+2025-08-27 05:47:14,617 - INFO - Best fitness: 0.8000
+2025-08-27 05:47:14,617 - INFO - Top 5 fitness scores: [0.61, 0.5775, 0.5725, 0.53, 0.5275000000000001]
+2025-08-27 05:47:14,617 - INFO - Generation 19: Best=0.6100, Mean=0.3815, Std=0.1068
+2025-08-27 05:47:14,617 - INFO - 
+--- Generation 21/30 ---
+2025-08-27 05:47:14,617 - INFO - Starting population evaluation...
+2025-08-27 05:47:14,617 - INFO - Using 10 parallel workers
+2025-08-27 06:30:31,813 - INFO - Best fitness: 0.8000
+2025-08-27 06:30:31,813 - INFO - Top 5 fitness scores: [0.5625, 0.54, 0.5375, 0.525, 0.5175]
+2025-08-27 06:30:31,813 - INFO - Generation 20: Best=0.5625, Mean=0.3900, Std=0.0869
+2025-08-27 06:30:31,813 - INFO - 
+--- Generation 22/30 ---
+2025-08-27 06:30:31,813 - INFO - Starting population evaluation...
+2025-08-27 06:30:31,813 - INFO - Using 10 parallel workers
+2025-08-27 07:13:19,061 - INFO - Best fitness: 0.8000
+2025-08-27 07:13:19,061 - INFO - Top 5 fitness scores: [0.6825, 0.6575, 0.5900000000000001, 0.5650000000000001, 0.5549999999999999]
+2025-08-27 07:13:19,061 - INFO - Generation 21: Best=0.6825, Mean=0.4054, Std=0.1191
+2025-08-27 07:13:19,061 - INFO - 
+--- Generation 23/30 ---
+2025-08-27 07:13:19,061 - INFO - Starting population evaluation...
+2025-08-27 07:13:19,061 - INFO - Using 10 parallel workers
+2025-08-27 07:59:13,247 - INFO - Best fitness: 0.8000
+2025-08-27 07:59:13,248 - INFO - Top 5 fitness scores: [0.6325000000000001, 0.5925, 0.5900000000000001, 0.585, 0.575]
+2025-08-27 07:59:13,248 - INFO - Generation 22: Best=0.6325, Mean=0.4011, Std=0.1104
+2025-08-27 07:59:13,249 - INFO - 
+--- Generation 24/30 ---
+2025-08-27 07:59:13,249 - INFO - Starting population evaluation...
+2025-08-27 07:59:13,249 - INFO - Using 10 parallel workers
+2025-08-27 08:46:08,321 - INFO - Best fitness: 0.8000
+2025-08-27 08:46:08,321 - INFO - Top 5 fitness scores: [0.635, 0.62, 0.61, 0.58, 0.5575]
+2025-08-27 08:46:08,321 - INFO - Generation 23: Best=0.6350, Mean=0.3981, Std=0.0912
+2025-08-27 08:46:08,321 - INFO - 
+--- Generation 25/30 ---
+2025-08-27 08:46:08,321 - INFO - Starting population evaluation...
+2025-08-27 08:46:08,321 - INFO - Using 10 parallel workers
+2025-08-27 09:33:01,328 - INFO - Best fitness: 0.8000
+2025-08-27 09:33:01,328 - INFO - Top 5 fitness scores: [0.6599999999999999, 0.6375, 0.5875, 0.5625, 0.5599999999999999]
+2025-08-27 09:33:01,328 - INFO - Generation 24: Best=0.6600, Mean=0.4067, Std=0.1073
+2025-08-27 09:33:01,328 - INFO - 
+--- Generation 26/30 ---
+2025-08-27 09:33:01,328 - INFO - Starting population evaluation...
+2025-08-27 09:33:01,328 - INFO - Using 10 parallel workers
+2025-08-27 10:19:34,732 - INFO - Best fitness: 0.8000
+2025-08-27 10:19:34,732 - INFO - Top 5 fitness scores: [0.6975, 0.6625, 0.6224999999999999, 0.61, 0.58]
+2025-08-27 10:19:34,732 - INFO - Generation 25: Best=0.6975, Mean=0.3922, Std=0.1266
+2025-08-27 10:19:34,732 - INFO - 
+--- Generation 27/30 ---
+2025-08-27 10:19:34,732 - INFO - Starting population evaluation...
+2025-08-27 10:19:34,732 - INFO - Using 10 parallel workers
+2025-08-27 11:03:28,839 - INFO - Best fitness: 0.8000
+2025-08-27 11:03:28,839 - INFO - Top 5 fitness scores: [0.6950000000000001, 0.675, 0.62, 0.5525, 0.54]
+2025-08-27 11:03:28,839 - INFO - Generation 26: Best=0.6950, Mean=0.3912, Std=0.1054
+2025-08-27 11:03:28,839 - INFO - 
+--- Generation 28/30 ---
+2025-08-27 11:03:28,839 - INFO - Starting population evaluation...
+2025-08-27 11:03:28,839 - INFO - Using 10 parallel workers
+2025-08-27 11:48:50,681 - INFO - Best fitness: 0.8000
+2025-08-27 11:48:50,681 - INFO - Top 5 fitness scores: [0.62, 0.5700000000000001, 0.5675, 0.5675, 0.5599999999999999]
+2025-08-27 11:48:50,681 - INFO - Generation 27: Best=0.6200, Mean=0.3952, Std=0.1069
+2025-08-27 11:48:50,681 - INFO - 
+--- Generation 29/30 ---
+2025-08-27 11:48:50,681 - INFO - Starting population evaluation...
+2025-08-27 11:48:50,681 - INFO - Using 10 parallel workers
+2025-08-27 12:34:29,871 - INFO - Best fitness: 0.8000
+2025-08-27 12:34:29,871 - INFO - Top 5 fitness scores: [0.6950000000000001, 0.6775, 0.675, 0.6174999999999999, 0.6075]
+2025-08-27 12:34:29,871 - INFO - Generation 28: Best=0.6950, Mean=0.4027, Std=0.1255
+2025-08-27 12:34:29,871 - INFO - 
+--- Generation 30/30 ---
+2025-08-27 12:34:29,871 - INFO - Starting population evaluation...
+2025-08-27 12:34:29,871 - INFO - Using 10 parallel workers
+2025-08-27 13:20:20,515 - INFO - Best fitness: 0.8000
+2025-08-27 13:20:20,515 - INFO - Top 5 fitness scores: [0.65, 0.605, 0.5700000000000001, 0.5425, 0.5275000000000001]
+2025-08-27 13:20:20,515 - INFO - Generation 29: Best=0.6500, Mean=0.4029, Std=0.0913
+2025-08-27 13:20:20,515 - INFO - Results saved to results\optimization_results_20250827_132020.json
+2025-08-27 13:20:20,515 - INFO - 
+Optimization completed!
+2025-08-27 13:20:20,515 - INFO - Best fitness achieved: 0.8000
+2025-08-27 13:20:20,515 - INFO - Best weights:
+2025-08-27 13:20:20,515 - INFO -   avance_balon: 5.649
+2025-08-27 13:20:20,515 - INFO -   min_dist_balon_jug: 49.069
+2025-08-27 13:20:20,515 - INFO -   max_dist_balon_jug: 29.393
+2025-08-27 13:20:20,515 - INFO -   min_dist_balon_op: 0.501
+2025-08-27 13:20:20,524 - INFO -   max_dist_balon_op: 25.116
+2025-08-27 13:20:20,524 - INFO -   max_avance_jug: -35.483
+2025-08-27 13:20:20,525 - INFO -   min_avance_jug: 38.902
+2025-08-27 13:20:20,525 - INFO -   max_avance_op: -42.914
+2025-08-27 13:20:20,525 - INFO -   min_avance_op: -20.911
+2025-08-27 13:20:20,525 - INFO -   muy_cerca_borde_jug: 15.304
+2025-08-27 13:20:20,525 - INFO -   muy_cerca_borde_op: 31.451
+2025-08-27 13:20:20,525 - INFO -   mas_cerca_balon: 19.029
+2025-08-27 13:20:20,525 - INFO -   casilla_neutra: 14.486
+2025-08-27 13:20:20,525 - INFO -   muy_cerca_jug: 21.204
+2025-08-27 13:20:20,526 - INFO -   muy_lejos_jug: -14.952
+2025-08-27 13:20:20,526 - INFO -   muy_cerca_op: -23.889
+2025-08-27 13:20:20,526 - INFO -   muy_lejos_op: 21.118

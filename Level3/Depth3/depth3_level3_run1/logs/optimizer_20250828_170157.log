@@ -1,0 +1,17 @@
+2025-08-28 17:01:57,655 - INFO - Initialized 24 features for level 3
+2025-08-28 17:01:57,655 - INFO - Starting weight optimization...
+2025-08-28 17:01:57,655 - INFO - Level: 3, Depth: 3
+2025-08-28 17:01:57,655 - INFO - Population: 50, Generations: 30
+2025-08-28 17:01:57,655 - INFO - Parallel: True, Workers: 10
+2025-08-28 17:01:57,655 - INFO - Initialized population of 50 individuals
+2025-08-28 17:01:57,655 - INFO - 
+--- Generation 1/30 ---
+2025-08-28 17:01:57,655 - INFO - Starting population evaluation...
+2025-08-28 17:01:57,655 - INFO - Using 10 parallel workers
+2025-08-29 15:34:15,976 - INFO - Best fitness: 0.4125
+2025-08-29 15:34:15,976 - INFO - Top 5 fitness scores: [0.4125, 0.32, 0.2975, 0.2975, 0.29]
+2025-08-29 15:34:15,976 - INFO - Generation 0: Best=0.4125, Mean=0.1804, Std=0.0698
+2025-08-29 15:34:15,976 - INFO - 
+--- Generation 2/30 ---
+2025-08-29 15:34:15,976 - INFO - Starting population evaluation...
+2025-08-29 15:34:15,976 - INFO - Using 10 parallel workers

@@ -183,7 +183,7 @@ class EnhancedTournamentManager:
                  output_dir: str = "tournament_results",
                  games_per_match: int = 2,  # Exactly 2 games
                  max_moves_per_game: int = 1000,
-                 time_limit_per_move: float = 15.0,
+                 time_limit_per_move: float = 60.0,
                  seed: Optional[int] = None,
                  verbose: bool = True):
         """Initialize enhanced tournament manager."""
@@ -608,8 +608,8 @@ class EnhancedTournamentManager:
         self.logger.info(f"Final Score: {agent1_name} {agent1_score:.1f} - {agent2_score:.1f} {agent2_name}")
         self.logger.info(f"Color Performance - {agent1_name}: LEFT {agent1_wins_as_left}/1, RIGHT {agent1_wins_as_right}/1")
         self.logger.info(f"Color Performance - {agent2_name}: LEFT {agent2_wins_as_left}/1, RIGHT {agent2_wins_as_right}/1")
-        self.logger.info(f"Average Move Times: {agent1_name} {agent1_avg_move_time:.3f}s, {agent2_name} {agent2_avg_move_time:.3f}s")
-        self.logger.info(f"Match Duration: {match_duration:.2f}s")
+        self.logger.info(f"Average Move Times: {agent1_name} {agent1_avg_move_time:.5f}s, {agent2_name} {agent2_avg_move_time:.5f}s")
+        self.logger.info(f"Match Duration: {match_duration:.4f}s")
         
         return match_result
     
@@ -977,9 +977,9 @@ class EnhancedTournamentManager:
                     'Color_Advantage': f"{stats['color_advantage']:.3f}",
                     
                     # Timing performance
-                    'Avg_Move_Time': f"{stats['avg_move_time']:.3f}",
-                    'Total_Thinking_Time': f"{stats['total_thinking_time']:.2f}",
-                    'Move_Time_Std': f"{stats['move_time_std']:.3f}"
+                    'Avg_Move_Time': f"{stats['avg_move_time']:.4f}",
+                    'Total_Thinking_Time': f"{stats['total_thinking_time']:.4f}",
+                    'Move_Time_Std': f"{stats['move_time_std']:.4f}"
                 })
             
             perf_df = pd.DataFrame(perf_data)
@@ -1014,11 +1014,11 @@ class EnhancedTournamentManager:
                     'Agent1_RIGHT_Win_Rate': f"{stats['agent1_right_win_rate']:.3f}",
                     
                     # Timing comparison
-                    'Agent1_Avg_Move_Time': f"{stats['agent1_avg_move_time']:.3f}",
-                    'Agent2_Avg_Move_Time': f"{stats['agent2_avg_move_time']:.3f}",
+                    'Agent1_Avg_Move_Time': f"{stats['agent1_avg_move_time']:.4f}",
+                    'Agent2_Avg_Move_Time': f"{stats['agent2_avg_move_time']:.4f}",
                     'Speed_Advantage_Agent1': f"{stats['speed_advantage']:.3f}",
                     
-                    'Match_Duration': f"{stats['match_duration']:.2f}"
+                    'Match_Duration': f"{stats['match_duration']:.5f}"
                 })
             
             h2h_df = pd.DataFrame(h2h_data)
@@ -1042,12 +1042,12 @@ class EnhancedTournamentManager:
                     'Agent1_Moves': game.agent1_moves,
                     'Agent2_Moves': game.agent2_moves,
                     'Game_Duration': f"{game.game_duration:.2f}",
-                    'Agent1_Total_Time': f"{game.agent1_total_time:.2f}",
-                    'Agent2_Total_Time': f"{game.agent2_total_time:.2f}",
-                    'Agent1_Avg_Time': f"{game.agent1_avg_time:.3f}",
-                    'Agent2_Avg_Time': f"{game.agent2_avg_time:.3f}",
-                    'Agent1_Max_Time': f"{game.agent1_max_time:.3f}",
-                    'Agent2_Max_Time': f"{game.agent2_max_time:.3f}",
+                    'Agent1_Total_Time': f"{game.agent1_total_time:.5f}",
+                    'Agent2_Total_Time': f"{game.agent2_total_time:.5f}",
+                    'Agent1_Avg_Time': f"{game.agent1_avg_time:.5f}",
+                    'Agent2_Avg_Time': f"{game.agent2_avg_time:.5f}",
+                    'Agent1_Max_Time': f"{game.agent1_max_time:.5f}",
+                    'Agent2_Max_Time': f"{game.agent2_max_time:.5f}",
                     'Termination_Reason': game.termination_reason,
                     'Final_Ball_Position': f"({game.final_ball_position[0]}, {game.final_ball_position[1]})"
                 })
@@ -1401,9 +1401,9 @@ def main():
     # Tournament parameters
     parser.add_argument('--games', type=int, default=2,
                        help='Games per match - FIXED at 2 (1 as LEFT, 1 as RIGHT)')
-    parser.add_argument('--max-moves', type=int, default=100,
+    parser.add_argument('--max-moves', type=int, default=200,
                        help='Maximum moves per game (default: 1000)')
-    parser.add_argument('--time-limit', type=float, default=15.0,
+    parser.add_argument('--time-limit', type=float, default=400.0,
                        help='Time limit per move in seconds (default: 15.0)')
     parser.add_argument('--output-dir', type=str, default='enhanced_tournament_results',
                        help='Output directory for results')
@@ -1462,18 +1462,24 @@ def main():
         print("\n=== REGISTERING AGENTS ===")
         # Register your actual agents here
         agent_files = [
-            #("Agent depth1_level1_run1", "../Level1/Depth1/depth1_level1_run1/optimized_weights.json"),
-            ("Agent depth1_level1_run2", "../Level1/Depth1/depth1_level1_run2/optimized_weights.json"),
-            #("Agent depth1_level1_run3", "../Level1/Depth1/depth1_level1_run3/optimized_weights.json"),
-            #("Agent Alberto Default", "../Level1/Depth1/albertoDefaultL1D1.json"),
-            #("Agent Alberto Avg 10", "../Level1/Depth1/albertoPromedioD1.json"),
-            # Add more agents as needed
-            #("Agent depth2_level1_run1", "../Level1/Depth2/depth2_level1_run1/optimized_weights.json"),
-            ("Agent depth2_level1_run2", "../Level1/Depth2/depth2_level1_run2/optimized_weights.json"),
-            #("Agent depth2_level1_run3", "../Level1/Depth2/depth2_level1_run3/optimized_weights.json"),
-            ("Agent depth3_level1_run1", "../Level1/Depth2/depth2_level1_run2/optimized_weights.json"),
-            ("Agent Alberto Default", "../Level1/Depth1/albertoDefaultL1D1.json"),
-            ("Agent Alberto Avg 10", "../Level1/Depth1/albertoPromedioD1.json"),
+            #("Agent depth1_level1_run2", "../Level1/Depth1/depth1_level1_run2/optimized_weights.json"),
+            #("Agent depth2_level1_run2", "../Level1/Depth2/depth2_level1_run2/optimized_weights.json"),
+            #("Agent depth3_level1_run1", "../Level1/Depth3/depth3_level1_run1/optimized_weights.json"),
+            #("Agent Alberto_Best_Agent_D1_L1", "../Level1/Depth1/albertoDefaultL1D1.json"),
+            #("Agent Alberto_10_Avg_D1_L1", "../Level1/Depth1/albertoPromedioD1.json")
+            # Uncomment above lines to include Level 1 agents
+            #("Agent depth1_level2_run2", "../Level2/Depth1/depth1_level2_run2/optimized_weights.json"),
+            #("Agent depth2_level2_run1", "../Level2/Depth2/depth2_level2_run1/optimized_weights.json"),
+            #("Agent depth3_level2_run1", "../Level2/Depth3/depth3_level2_run1/optimized_weights.json"),
+            #("Agent AlbertoBestAgent", "../Level2/Depth1/albertoBestAgent.json"),
+            #("Agent AlbertoAvg", "../Level2/Depth1/albertoAvg.json"),
+            # Uncomment above lines to include Level 2 agents
+            ("Agent depth1_level3_run1", "../Level3/Depth1/depth1_level3_run1/optimized_weights.json"),
+            ("Agent depth2_level3_run1", "../Level3/Depth2/depth2_level3_run1/optimized_weights.json"),
+            ("Agent depth3_level3_run2", "../Level3/Depth3/depth3_level3_run2/optimized_weights.json"),
+            ("Agent AlbertoBestAgentL3", "../Level3/Depth1/albertoBestAgentL3.json"),
+            ("Agent AlbertoAvgL3", "../Level3/Depth1/albertoAvgL3.json")
+            # Uncomment above lines to include Level 3 agents
         ]
         
         registered_count = 0

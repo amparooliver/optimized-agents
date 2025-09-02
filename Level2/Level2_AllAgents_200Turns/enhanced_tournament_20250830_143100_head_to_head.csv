@@ -1,0 +1,11 @@
+Agent1,Agent2,Agent1_Score,Agent2_Score,Agent1_Wins,Agent2_Wins,Draws,Agent1_Wins_as_LEFT,Agent1_Wins_as_RIGHT,Agent2_Wins_as_LEFT,Agent2_Wins_as_RIGHT,Agent1_Win_Rate,Agent2_Win_Rate,Agent1_LEFT_Win_Rate,Agent1_RIGHT_Win_Rate,Agent1_Avg_Move_Time,Agent2_Avg_Move_Time,Speed_Advantage_Agent1,Match_Duration
+Agent depth1_level2_run2,Agent depth2_level2_run1,1.0,1.0,0,0,2,0,0,0,0,0.000,0.000,0.000,0.000,0.001,0.008,0.007,1.95
+Agent depth1_level2_run2,Agent depth3_level2_run1,0.5,1.5,0,1,1,0,0,1,0,0.000,0.500,0.000,0.000,0.001,0.196,0.196,12.15
+Agent depth1_level2_run2,Agent AlbertoBestAgent,1.0,1.0,0,0,2,0,0,0,0,0.000,0.000,0.000,0.000,0.001,0.001,-0.000,0.53
+Agent depth1_level2_run2,Agent AlbertoAvg,1.0,1.0,0,0,2,0,0,0,0,0.000,0.000,0.000,0.000,0.001,0.001,0.000,0.60
+Agent depth2_level2_run1,Agent depth3_level2_run1,0.5,1.5,0,1,1,0,0,1,0,0.000,0.500,0.000,0.000,0.018,0.174,0.157,20.88
+Agent depth2_level2_run1,Agent AlbertoBestAgent,1.0,1.0,0,0,2,0,0,0,0,0.000,0.000,0.000,0.000,0.013,0.001,-0.012,2.87
+Agent depth2_level2_run1,Agent AlbertoAvg,1.0,1.0,0,0,2,0,0,0,0,0.000,0.000,0.000,0.000,0.011,0.001,-0.010,2.60
+Agent depth3_level2_run1,Agent AlbertoBestAgent,1.5,0.5,1,0,1,1,0,0,0,0.500,0.000,1.000,0.000,0.244,0.002,-0.243,25.16
+Agent depth3_level2_run1,Agent AlbertoAvg,1.5,0.5,1,0,1,1,0,0,0,0.500,0.000,1.000,0.000,0.234,0.001,-0.234,30.76
+Agent AlbertoBestAgent,Agent AlbertoAvg,1.0,1.0,0,0,2,0,0,0,0,0.000,0.000,0.000,0.000,0.001,0.001,0.000,0.56

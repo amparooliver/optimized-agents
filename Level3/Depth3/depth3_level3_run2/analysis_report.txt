@@ -1,0 +1,58 @@
+WEIGHT OPTIMIZATION ANALYSIS REPORT
+Generated: 2025-08-31 13:03:15
+Results file: results/optimization_results_20250831_120857.json
+python weight_optimizer.py --level 3 --population 5 --generations 15 --mutation-rate 0.2 --crossover-rate 0.8 --depth 3 --workers 10 --max-moves 40
+==================================================
+
+CONFIGURATION:
+  level: 3
+  minimax_depth: 3
+  population_size: 5
+  generations: 15
+  mutation_rate: 0.2
+  crossover_rate: 0.8
+  elite_size: 1
+  weight_bounds: [-50.0, 50.0]
+  games_per_matchup: 2
+  parallel: True
+  num_workers: 10
+
+BEST INDIVIDUAL:
+  Fitness: 0.5500
+  Games Played: 8
+  Wins: 4
+  Draws: 4
+  Losses: 0
+
+OPTIMIZED WEIGHTS:
+  arq_en_area_jug: 28.834302
+  arq_en_area_op: 1.220795
+  avance_balon: -13.857190
+  avance_jug_1: 27.937626
+  avance_jug_2: -15.132670
+  avance_jug_3: 41.028219
+  avance_op_1: -43.750140
+  avance_op_2: 11.275015
+  avance_op_3: 41.844336
+  casilla_especial: -10.090157
+  casilla_neutra: 37.004842
+  dist_balon_jug_1: 12.986994
+  dist_balon_jug_2: 49.878041
+  dist_balon_jug_3: 19.474048
+  dist_balon_op_1: -33.385584
+  dist_balon_op_2: 15.579602
+  dist_balon_op_3: -7.257037
+  mas_cerca_balon: 30.262230
+  muy_cerca_borde_jug: -16.353106
+  muy_cerca_borde_op: 41.902853
+  muy_cerca_jug: 50.000000
+  muy_cerca_op: 29.880796
+  muy_lejos_jug: 9.977750
+  muy_lejos_op: 9.821601
+
+EVOLUTION SUMMARY:
+  Initial best fitness: 0.4375
+  Final best fitness: 0.2125
+  Total improvement: -0.2250
+  Generations: 15
+

@@ -1,0 +1,4 @@
+Agent_Name,Level,Minimax_Depth,Weight_Source,Fitness_Score,Generation,Total_Games,Wins,Losses,Draws,Score,Win_Rate,Score_Rate,Wins_as_LEFT,Wins_as_RIGHT,LEFT_Win_Rate,RIGHT_Win_Rate,Color_Advantage,Avg_Move_Time,Total_Thinking_Time,Move_Time_Std
+Agent depth3_level3_run1,3,3,unknown,0.4375,,4,1,0,3,2.5,0.250,0.625,1,0,0.500,0.000,0.500,4.380,647.24,2.980
+Agent depth1_level3_run2,3,1,unknown,0.3875,,4,0,0,4,2.0,0.000,0.500,0,0,0.000,0.000,0.000,0.009,1.66,0.002
+Agent depth2_level3_run1,3,2,unknown,0.4925,,4,0,1,3,1.5,0.000,0.375,0,0,0.000,0.000,0.000,0.179,29.11,0.096
